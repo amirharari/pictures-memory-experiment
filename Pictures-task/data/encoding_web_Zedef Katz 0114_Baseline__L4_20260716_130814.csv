@@ -1,0 +1,62 @@
+﻿participant_id,session,participant_list,dataset,music_subset,no_music_subset,song,test_mode,music_first,block,trial,subset,image_filename,image_onset_ms,isi_dur_ms,question_shown,response,rt_ms
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,1,a,100 - 53632 - Unreal Construction.jpg,2550,5617,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,2,a,231 - 158639 - Blue Note.jpg,11817,5500,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,3,a,067 - 105078 - Fjord.jpg,20916,6183,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,4,a,210 - 228638 - Galaxy (Fugetsudoten; e╠ü┬ó┬¿├ª┼ô╦åa╠è┬É┼Æa╠è┬ñ┬⌐).jpg,30782,5229,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,5,a,209 - 140613 - Figures.jpg,39599,3880,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,6,a,181 - 62326 - Wings.jpg,47114,5764,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,7,a,163 - 73402 - Constellation.jpg,56547,4040,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,8,a,236 - 58842 - Garden on Debris.jpg,64263,3589,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,9,a,069 - 93343 - Red Light.jpg,71530,3514,1,no_response,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,10,a,107 - 80246 - Mosaic.jpg,78679,3933,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,11,a,121 - 135521 - Untitled.jpg,86279,5241,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,12,a,017 - 72177 - Heart of Darkness.jpg,95045,6331,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,13,a,140 - 120817 - Composition.jpg,104961,4737,1,yes,5541
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,14,a,"062 - 63182 - Four Triangles within a Circle, #1.jpg",113145,4094,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,15,a,120 - 158376 - La Campagna Series #10.jpg,120744,3501,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,16,a,"185 - 250755 - Untitled (Paris, rue des Grands-Augustins).jpg",127810,5486,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,17,a,166 - 22669 - Untitled.jpg,136927,5563,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,18,a,222 - 60254 - Invention.jpg,146093,4523,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,19,a,201 - 74164 - Symphony in Blue.jpg,154259,5994,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,20,a,150 - 227588 - Untitled.jpg,163842,4560,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,21,a,162 - 117567 - Emergence.jpg,172126,5442,1,no,4412
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,22,a,143 - 78514 - Study.jpg,181157,4786,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,23,a,183 - 84256 - The Horse.jpg,189391,6211,1,no,4131
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,24,a,043 - 129141 - Study for the Oracle.jpg,199273,4470,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,25,a,136 - 6010 - Number 19.jpg,207340,6224,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,26,a,167 - 186050 - The Second Part of the Return from Parnassus.jpg,217073,3948,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,27,a,055 - 23387 - Composition.jpg,224572,6355,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,28,a,041 - 102235 - Amorosa Tropicalia.jpg,234607,4128,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,29,a,102 - 63630 - Woman and Birds in Front of the Sun.jpg,242405,4385,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,1,30,a,116 - 102695 - Untitled.jpg,252055,4056,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,1,b,057 - 5421 - Untitled.jpg,2380,4604,1,no,3946
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,2,b,230 - 12415 - Growth.jpg,10605,5274,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,3,b,213 - 217465 - Reflections in Space.jpg,19523,3543,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,4,b,132 - 256803 - Untitled.jpg,26505,3799,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,5,b,189 - 185780 - Figure in Pink and Yellow.jpg,33871,4892,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,6,b,115 - 117568 - Fragment.jpg,42620,5665,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,7,b,020 - 66201 - Dewey Square.jpg,51854,4863,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,8,b,142 - 156077 - Transom #2 (Twilight).jpg,60236,4760,1,no,3445
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,9,b,108 - 229392 - Work.jpg,68686,3500,1,no,3250
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,10,b,233 - 107328 - Composition with Red Frame.jpg,75753,4338,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,11,b,028 - 60623 - Quadrangles in Two Planes.jpg,83686,3654,1,no,3385
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,12,b,"138 - 30972 - Yea, They're Bucking Up Old Bob.jpg",90969,4714,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,13,b,208 - 2825 - The Idols.jpg,99268,4149,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,14,b,025 - 66164 - Homage to the Square New Light.jpg,106950,6296,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,15,b,105 - 5394 - Untitled.jpg,116867,4296,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,16,b,075 - 210682 - Carnival.jpg,124816,5695,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,17,b,153 - 102580 - Otium cum Dignitade.jpg,134099,3613,1,no,3492
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,18,b,101 - 208201 - Untitled.jpg,141365,3587,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,19,b,130 - 209911 - Circum I.jpg,148499,5055,1,no,3345
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,20,b,082 - 244936 - Windcatchers in Pink.jpg,157148,5755,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,21,b,194 - 53599 - Blooming Plant.jpg,166581,3758,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,22,b,155 - 50285 - Undersea Tensions.jpg,173897,3819,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,23,b,149 - 73496 - Hydra.jpg,181497,5019,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,24,b,147 - 105533 - Broadway.jpg,190063,5730,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,25,b,170 - 185759 - Halleluiah.jpg,199446,4220,1,yes,2864
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,26,b,133 - 35450 - The Three Look the Other Way.jpg,207230,3893,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,27,b,019 - 20397 - First Theme.jpg,214662,6481,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,28,b,196 - 8987 - Painting with Green Center.jpg,224745,5542,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,29,b,031 - 20430 - Born in Snovsk.jpg,233911,5411,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,2,30,b,225 - 129138 - Study for El Meusaje.jpg,242995,4319,0,,
+Zedef Katz 0114,Baseline,4,Group_2,b,a,song_2.mp3,0,0,music_rating,,,,,,,valence:4 arousal:2,

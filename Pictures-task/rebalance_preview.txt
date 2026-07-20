@@ -1,0 +1,225 @@
+﻿Loaded 240 images
+
+ΓöÇΓöÇΓöÇ NEW ASSIGNMENT STATISTICS ΓöÇΓöÇΓöÇ
+Subset            mean RESMEM     min     max  portrait/30
+Group_1/a              0.7986  0.6815  0.8929         12/30  ΓùÇ target
+Group_2/a              0.7977  0.6810  0.8904         18/30  ΓùÇ target
+Group_1/b              0.7970  0.6806  0.8900         13/30  ΓùÇ target
+Group_2/b              0.7962  0.6789  0.8894         18/30  ΓùÇ target
+Group_1/c              0.7951  0.6787  0.8876         17/30    distractor
+Group_2/c              0.7941  0.6739  0.8863         14/30    distractor
+Group_1/d              0.7929  0.6730  0.8861         16/30    distractor
+Group_2/d              0.7920  0.6699  0.8851         13/30    distractor
+
+ΓöÇΓöÇΓöÇ FILES THAT WOULD MOVE ΓöÇΓöÇΓöÇ
+  Group_2/d ΓåÆ Group_1/a  016 - 10999 - Harmonized Region.jpg
+  Group_2/d ΓåÆ Group_1/a  131 - 223342 - Overrun.jpg
+  Group_2/d ΓåÆ Group_1/a  013 - 196081 - Untitled.jpg
+  Group_2/d ΓåÆ Group_1/a  012 - 64962 - Counter-Composition VIII.jpg
+  Group_1/c ΓåÆ Group_1/a  037 - 107281 - A la pintura Red 1-3.jpg
+  Group_2/d ΓåÆ Group_1/a  126 - 13474 - Ocean Undulations Revealing Particle
+  Group_1/b ΓåÆ Group_1/a  015 - 198303 - Tableau Vert.jpg
+  Group_2/d ΓåÆ Group_1/a  178 - 111808 - Crypt.jpg
+  Group_2/d ΓåÆ Group_1/a  076 - 103403 - Laughter.jpg
+  Group_2/d ΓåÆ Group_1/a  068 - 66184 - White Black Curve.jpg
+  Group_2/d ΓåÆ Group_1/a  023 - 124768 - Untitled.jpg
+  Group_2/d ΓåÆ Group_1/a  145 - 60259 - Towards the Unknown.jpg
+  Group_1/b ΓåÆ Group_1/a  157 - 77615 - Painting (Figures with Stars).jpg
+  Group_1/c ΓåÆ Group_1/a  111 - 26085 - Composition #275.jpg
+  Group_2/d ΓåÆ Group_1/a  200 - 40614 - Untitled.jpg
+  Group_2/d ΓåÆ Group_1/a  045 - 105024 - Untitled.jpg
+  Group_2/d ΓåÆ Group_1/a  180 - 229352 - Figure 4.jpg
+  Group_2/c ΓåÆ Group_1/a  199 - 109328 - Clock.jpg
+  Group_1/b ΓåÆ Group_2/a  121 - 135521 - Untitled.jpg
+  Group_2/c ΓåÆ Group_2/a  140 - 120817 - Composition.jpg
+  Group_1/b ΓåÆ Group_2/a  062 - 63182 - Four Triangles within a Circle, #1.j
+  Group_2/c ΓåÆ Group_2/a  166 - 22669 - Untitled.jpg
+  Group_1/b ΓåÆ Group_2/a  107 - 80246 - Mosaic.jpg
+  Group_2/b ΓåÆ Group_2/a  067 - 105078 - Fjord.jpg
+  Group_1/b ΓåÆ Group_2/a  120 - 158376 - La Campagna Series #10.jpg
+  Group_2/c ΓåÆ Group_2/a  183 - 84256 - The Horse.jpg
+  Group_1/a ΓåÆ Group_2/a  017 - 72177 - Heart of Darkness.jpg
+  Group_1/c ΓåÆ Group_2/a  069 - 93343 - Red Light.jpg
+  Group_2/c ΓåÆ Group_2/a  162 - 117567 - Emergence.jpg
+  Group_1/b ΓåÆ Group_2/a  136 - 6010 - Number 19.jpg
+  Group_2/c ΓåÆ Group_2/a  143 - 78514 - Study.jpg
+  Group_2/c ΓåÆ Group_2/a  231 - 158639 - Blue Note.jpg
+  Group_2/c ΓåÆ Group_2/a  116 - 102695 - Untitled.jpg
+  Group_1/b ΓåÆ Group_2/a  102 - 63630 - Woman and Birds in Front of the Sun.
+  Group_2/c ΓåÆ Group_2/a  150 - 227588 - Untitled.jpg
+  Group_1/a ΓåÆ Group_2/a  181 - 62326 - Wings.jpg
+  Group_2/b ΓåÆ Group_2/a  209 - 140613 - Figures.jpg
+  Group_1/a ΓåÆ Group_2/a  222 - 60254 - Invention.jpg
+  Group_2/c ΓåÆ Group_2/a  163 - 73402 - Constellation.jpg
+  Group_1/b ΓåÆ Group_2/a  236 - 58842 - Garden on Debris.jpg
+  Group_2/c ΓåÆ Group_2/a  201 - 74164 - Symphony in Blue.jpg
+  Group_1/b ΓåÆ Group_2/a  041 - 102235 - Amorosa Tropicalia.jpg
+  Group_2/c ΓåÆ Group_2/a  043 - 129141 - Study for the Oracle.jpg
+  Group_1/b ΓåÆ Group_2/a  167 - 186050 - The Second Part of the Return from 
+  Group_2/c ΓåÆ Group_2/a  210 - 228638 - Galaxy (Fugetsudoten; eΓòá├╝Γö¼├│Γö¼┬┐Γö£┬¬Γö╝├┤Γòª├Ñ
+  Group_1/b ΓåÆ Group_2/a  100 - 53632 - Unreal Construction.jpg
+  Group_2/d ΓåÆ Group_2/a  185 - 250755 - Untitled (Paris, rue des Grands-Aug
+  Group_1/c ΓåÆ Group_1/b  087 - 17444 - Composition with Red Arrow.jpg
+  Group_2/b ΓåÆ Group_1/b  030 - 60736 - Cyclops.jpg
+  Group_1/c ΓåÆ Group_1/b  009 - 98034 - A la pintura White 7-9.jpg
+  Group_2/b ΓåÆ Group_1/b  239 - 50290 - The Facetted Cliffs.jpg
+  Group_1/c ΓåÆ Group_1/b  003 - 109443 - Oeuf au Plat.jpg
+  Group_1/d ΓåÆ Group_1/b  173 - 229371 - Untitled.jpg
+  Group_1/c ΓåÆ Group_1/b  088 - 80507 - Untitled (Composition with Grey Back
+  Group_2/b ΓåÆ Group_1/b  058 - 48141 - Egypto.jpg
+  Group_2/c ΓåÆ Group_1/b  205 - 15154 - Primeval.jpg
+  Group_1/a ΓåÆ Group_1/b  106 - 84243 - Affiche Metro.jpg
+  Group_2/a ΓåÆ Group_1/b  190 - 16706 - Untitled.jpg
+  Group_1/c ΓåÆ Group_1/b  117 - 82544 - Abstract Composition.jpg
+  Group_2/a ΓåÆ Group_1/b  049 - 214080 - Untitled, Paris, March 1937.jpg
+  Group_1/d ΓåÆ Group_1/b  099 - 102207 - Composition Red White.jpg
+  Group_1/c ΓåÆ Group_1/b  042 - 186720 - Untitled.jpg
+  Group_1/d ΓåÆ Group_1/b  046 - 14316 - Classic Boundaries I.jpg
+  Group_2/b ΓåÆ Group_1/b  026 - 210640 - Untitled, from Insect Series.jpg
+  Group_1/c ΓåÆ Group_1/b  123 - 72353 - Abstract Landscape.jpg
+  Group_2/c ΓåÆ Group_1/b  032 - 129845 - Intertexture.jpg
+  Group_2/d ΓåÆ Group_1/b  154 - 107255 - A la pintura Blue 5.jpg
+  Group_2/b ΓåÆ Group_1/b  083 - 23979 - Capella.jpg
+  Group_1/c ΓåÆ Group_1/b  094 - 146853 - Silver Tanks.jpg
+  Group_2/b ΓåÆ Group_1/b  182 - 66020 - New York.jpg
+  Group_1/c ΓåÆ Group_1/b  141 - 63780 - Heraldry.jpg
+  Group_1/c ΓåÆ Group_1/b  156 - 51723 - Machine.jpg
+  Group_2/b ΓåÆ Group_1/b  192 - 79591 - The Green Line.jpg
+  Group_1/c ΓåÆ Group_1/b  054 - 50317 - Cube and Vent.jpg
+  Group_2/b ΓåÆ Group_1/b  168 - 251140 - White Cap.jpg
+  Group_1/d ΓåÆ Group_2/b  105 - 5394 - Untitled.jpg
+  Group_1/a ΓåÆ Group_2/b  019 - 20397 - First Theme.jpg
+  Group_1/d ΓåÆ Group_2/b  101 - 208201 - Untitled.jpg
+  Group_2/a ΓåÆ Group_2/b  031 - 20430 - Born in Snovsk.jpg
+  Group_1/d ΓåÆ Group_2/b  025 - 66164 - Homage to the Square New Light.jpg
+  Group_1/c ΓåÆ Group_2/b  132 - 256803 - Untitled.jpg
+  Group_1/b ΓåÆ Group_2/b  149 - 73496 - Hydra.jpg
+  Group_2/a ΓåÆ Group_2/b  147 - 105533 - Broadway.jpg
+  Group_1/d ΓåÆ Group_2/b  115 - 117568 - Fragment.jpg
+  Group_1/d ΓåÆ Group_2/b  213 - 217465 - Reflections in Space.jpg
+  Group_2/c ΓåÆ Group_2/b  153 - 102580 - Otium cum Dignitade.jpg
+  Group_1/d ΓåÆ Group_2/b  082 - 244936 - Windcatchers in Pink.jpg
+  Group_1/c ΓåÆ Group_2/b  233 - 107328 - Composition with Red Frame.jpg
+  Group_2/a ΓåÆ Group_2/b  075 - 210682 - Carnival.jpg
+  Group_1/c ΓåÆ Group_2/b  057 - 5421 - Untitled.jpg
+  Group_1/d ΓåÆ Group_2/b  020 - 66201 - Dewey Square.jpg
+  Group_1/d ΓåÆ Group_2/b  225 - 129138 - Study for El Meusaje.jpg
+  Group_1/b ΓåÆ Group_2/b  138 - 30972 - Yea, They're Bucking Up Old Bob.jpg
+  Group_1/d ΓåÆ Group_2/b  230 - 12415 - Growth.jpg
+  Group_2/a ΓåÆ Group_2/b  170 - 185759 - Halleluiah.jpg
+  Group_2/c ΓåÆ Group_2/b  108 - 229392 - Work.jpg
+  Group_2/a ΓåÆ Group_2/b  130 - 209911 - Circum I.jpg
+  Group_1/d ΓåÆ Group_2/b  142 - 156077 - Transom #2 (Twilight).jpg
+  Group_2/a ΓåÆ Group_2/b  208 - 2825 - The Idols.jpg
+  Group_1/d ΓåÆ Group_2/b  133 - 35450 - The Three Look the Other Way.jpg
+  Group_2/a ΓåÆ Group_2/b  155 - 50285 - Undersea Tensions.jpg
+  Group_1/d ΓåÆ Group_2/b  189 - 185780 - Figure in Pink and Yellow.jpg
+  Group_1/d ΓåÆ Group_2/b  196 - 8987 - Painting with Green Center.jpg
+  Group_2/a ΓåÆ Group_1/c  114 - 50529 - Physiognomy of Fragments.jpg
+  Group_1/d ΓåÆ Group_1/c  038 - 226693 - Summer.jpg
+  Group_2/a ΓåÆ Group_1/c  071 - 12408 - Ladder to the Light.jpg
+  Group_1/a ΓåÆ Group_1/c  103 - 234003 - Ecriture 46-73.jpg
+  Group_2/b ΓåÆ Group_1/c  065 - 207003 - Nine Clearings for a Standing Man.j
+  Group_2/c ΓåÆ Group_1/c  022 - 180739 - Aqua Trace.jpg
+  Group_2/a ΓåÆ Group_1/c  175 - 74690 - The Embryo.jpg
+  Group_1/d ΓåÆ Group_1/c  078 - 225731 - Characters in the Night Guided by t
+  Group_1/a ΓåÆ Group_1/c  074 - 110991 - Orphist Composition with Disks.jpg
+  Group_1/d ΓåÆ Group_1/c  063 - 98025 - A la pintura Red 1-3.jpg
+  Group_2/a ΓåÆ Group_1/c  081 - 229998 - Conjunction 79aΓòá├⌐╬ô├⌐┬╝╬ô├ç┬ú31.jpg
+  Group_2/b ΓåÆ Group_1/c  215 - 159630 - Mold (Muffa).jpg
+  Group_2/a ΓåÆ Group_1/c  092 - 52998 - Composition.jpg
+  Group_1/d ΓåÆ Group_1/c  109 - 193425 - Avant le jour.jpg
+  Group_2/a ΓåÆ Group_1/c  139 - 157155 - La Jaune.jpg
+  Group_1/d ΓåÆ Group_1/c  077 - 49717 - Composition with Figures.jpg
+  Group_2/a ΓåÆ Group_1/c  051 - 230054 - Metasigne.jpg
+  Group_2/a ΓåÆ Group_1/c  176 - 107321 - Egypt Day and Night #109.jpg
+  Group_2/a ΓåÆ Group_1/c  006 - 257404 - Blacklash.jpg
+  Group_1/d ΓåÆ Group_1/c  198 - 238802 - Untitled.jpg
+  Group_2/a ΓåÆ Group_1/c  218 - 117194 - Mattamathics.jpg
+  Group_1/d ΓåÆ Group_1/c  184 - 236861 - Aesthetic Function in Space.jpg
+  Group_2/a ΓåÆ Group_1/c  089 - 27103 - Beside the Sea #34.jpg
+  Group_1/d ΓåÆ Group_1/c  061 - 234457 - All Alone.jpg
+  Group_2/b ΓåÆ Group_1/c  160 - 36257 - Untitled.jpg
+  Group_1/d ΓåÆ Group_1/c  186 - 113680 - Homage to Marcel Duchamp (recto); C
+  Group_2/a ΓåÆ Group_1/c  174 - 79598 - Above the Earth.jpg
+  Group_2/a ΓåÆ Group_1/c  238 - 76910 - Blue Rhythm.jpg
+  Group_2/a ΓåÆ Group_1/c  220 - 16969 - Composition.jpg
+  Group_2/b ΓåÆ Group_2/c  211 - 237886 - Waterfall.jpg
+  Group_1/c ΓåÆ Group_2/c  005 - 99542 - 1967 (Silver Brown).jpg
+  Group_2/b ΓåÆ Group_2/c  004 - 251290 - Gold Drawing #77.jpg
+  Group_1/c ΓåÆ Group_2/c  093 - 99611 - 26987.jpg
+  Group_2/a ΓåÆ Group_2/c  165 - 189208 - Moeder.jpg
+  Group_1/d ΓåÆ Group_2/c  177 - 61650 - 11th January 1981.jpg
+  Group_1/c ΓåÆ Group_2/c  034 - 93349 - Untitled.jpg
+  Group_2/b ΓåÆ Group_2/c  035 - 66190 - Number Three.jpg
+  Group_1/c ΓåÆ Group_2/c  113 - 23133 - Untitled.jpg
+  Group_2/b ΓåÆ Group_2/c  125 - 80238 - Composition in Brown.jpg
+  Group_1/c ΓåÆ Group_2/c  144 - 22369 - Painting 62.jpg
+  Group_1/d ΓåÆ Group_2/c  021 - 210010 - Florescence.jpg
+  Group_1/b ΓåÆ Group_2/c  040 - 97405 - Macy's Jet Set.jpg
+  Group_1/b ΓåÆ Group_2/c  029 - 33219 - White Median.jpg
+  Group_2/b ΓåÆ Group_2/c  124 - 234101 - Burnt Umber and Ultramarine.jpg
+  Group_2/b ΓåÆ Group_2/c  228 - 204041 - Extemporaneous.jpg
+  Group_1/c ΓåÆ Group_2/c  214 - 53195 - Dragon Fly.jpg
+  Group_2/b ΓåÆ Group_2/c  059 - 222922 - Untitled.jpg
+  Group_1/c ΓåÆ Group_2/c  095 - 93779 - Study for the Hall of Medical Scienc
+  Group_2/b ΓåÆ Group_2/c  060 - 152753 - Untitled.jpg
+  Group_1/c ΓåÆ Group_2/c  148 - 129827 - The Wedding Gifts.jpg
+  Group_2/b ΓåÆ Group_2/c  202 - 158375 - Untitled.jpg
+  Group_1/c ΓåÆ Group_2/c  187 - 53501 - Trinity.jpg
+  Group_2/a ΓåÆ Group_2/c  056 - 24658 - 21992.jpg
+  Group_1/c ΓåÆ Group_2/c  235 - 65963 - Ocean and Rocks.jpg
+  Group_2/b ΓåÆ Group_2/c  237 - 146994 - Ice (1).jpg
+  Group_1/b ΓåÆ Group_2/c  193 - 47939 - Fragment of a City.jpg
+  Group_2/b ΓåÆ Group_2/c  129 - 78504 - Faintness (Matite).jpg
+  Group_1/c ΓåÆ Group_2/c  179 - 37749 - Departing.jpg
+  Group_2/c ΓåÆ Group_1/d  090 - 145878 - Untitled.jpg
+  Group_2/a ΓåÆ Group_1/d  047 - 13481 - Fourth Avenue.jpg
+  Group_2/d ΓåÆ Group_1/d  086 - 51692 - Coss Ballance II.jpg
+  Group_1/b ΓåÆ Group_1/d  227 - 254887 - Wake.jpg
+  Group_2/c ΓåÆ Group_1/d  002 - 61748 - Brilliant Yellow #9.jpg
+  Group_2/a ΓåÆ Group_1/d  112 - 229369 - Study for the Muses (Eaglesmere Ver
+  Group_2/d ΓåÆ Group_1/d  137 - 254119 - Composition.jpg
+  Group_1/b ΓåÆ Group_1/d  110 - 80245 - Japanese Fantasy.jpg
+  Group_2/c ΓåÆ Group_1/d  036 - 32825 - Untitled.jpg
+  Group_1/b ΓåÆ Group_1/d  080 - 65920 - Provincetown.jpg
+  Group_2/c ΓåÆ Group_1/d  053 - 82542 - Abstract Composition.jpg
+  Group_1/a ΓåÆ Group_1/d  014 - 129094 - Kewalo Close-Up.jpg
+  Group_2/b ΓåÆ Group_1/d  119 - 66017 - Entrance to New York.jpg
+  Group_1/c ΓåÆ Group_1/d  122 - 257350 - Mountain.jpg
+  Group_2/b ΓåÆ Group_1/d  070 - 66210 - Untitled.jpg
+  Group_1/b ΓåÆ Group_1/d  118 - 189206 - Untitled.jpg
+  Group_2/c ΓåÆ Group_1/d  146 - 58233 - For the Incantation to the Entrance.
+  Group_1/b ΓåÆ Group_1/d  097 - 102245 - Con brio.jpg
+  Group_2/c ΓåÆ Group_1/d  188 - 22479 - Study for Around a Point.jpg
+  Group_2/a ΓåÆ Group_1/d  084 - 59822 - Nuclear I, CH.jpg
+  Group_2/c ΓåÆ Group_1/d  219 - 102208 - Composition Red, Blue, Yellow, Whit
+  Group_1/b ΓåÆ Group_1/d  217 - 9550 - The Dreadful Feast of Flesh.jpg
+  Group_1/b ΓåÆ Group_1/d  240 - 33769 - Lousy Fear.jpg
+  Group_2/c ΓåÆ Group_1/d  158 - 15156 - The Golden Wall.jpg
+  Group_2/b ΓåÆ Group_1/d  226 - 63783 - Melusine and the Great Transparents.
+  Group_2/c ΓåÆ Group_1/d  066 - 31600 - Earth.jpg
+  Group_2/d ΓåÆ Group_1/d  212 - 56680 - Returning Life.jpg
+  Group_1/b ΓåÆ Group_1/d  064 - 257310 - Peau de soleil.jpg
+  Group_1/b ΓåÆ Group_2/d  223 - 190439 - Untitled.jpg
+  Group_2/c ΓåÆ Group_2/d  039 - 237873 - Cut Out (medium).jpg
+  Group_1/d ΓåÆ Group_2/d  052 - 53233 - Composition #45.jpg
+  Group_1/a ΓåÆ Group_2/d  096 - 109454 - Study #5 Mykonos.jpg
+  Group_2/a ΓåÆ Group_2/d  229 - 29761 - After Khorkum.jpg
+  Group_1/a ΓåÆ Group_2/d  172 - 117258 - Reconstruction #117.jpg
+  Group_1/b ΓåÆ Group_2/d  018 - 66198 - Pitt.jpg
+  Group_1/a ΓåÆ Group_2/d  216 - 117406 - Composition.jpg
+  Group_1/a ΓåÆ Group_2/d  128 - 122691 - Untitled.jpg
+  Group_1/b ΓåÆ Group_2/d  091 - 220551 - Untitled.jpg
+  Group_1/a ΓåÆ Group_2/d  206 - 65901 - Swing Music (Louis Armstrong).jpg
+  Group_1/a ΓåÆ Group_2/d  048 - 70024 - Untitled.jpg
+  Group_1/a ΓåÆ Group_2/d  232 - 17458 - Ballet of the Left-Handed Piano.jpg
+  Group_1/a ΓåÆ Group_2/d  171 - 117189 - Untitled.jpg
+  Group_1/a ΓåÆ Group_2/d  197 - 62375 - Singed Garden.jpg
+  Group_2/c ΓåÆ Group_2/d  234 - 239771 - Untitled.jpg
+  Group_1/a ΓåÆ Group_2/d  027 - 220544 - Untitled.jpg
+  Group_2/b ΓåÆ Group_2/d  011 - 236501 - Caos-Caos.jpg
+
+Total files to move: 207
+
+Dry-run complete. Run with --apply to actually move the files.

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>הוראות – מטלת קידוד</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container setup-container">
+    <h1 class="setup-title">ברוך/ה הבא/ה למטלת הקידוד</h1>
+
+    <div class="instructions-box">
+      <p>בסדרה זו תראה/י תמונות שונות.</p>
+      <p>כל תמונה תוצג למשך <strong>2 שניות</strong>.</p>
+      <p>לאחר כל תמונה יופיע <strong>+</strong> על המסך לכמה שניות.</p>
+      <p>לפעמים תוצג שאלה קצרה בזמן ה-+:</p>
+      <div class="instructions-question-example">
+        <em>האם הציור נראה כאילו צוייר על ידי אומן <strong>מתחיל</strong> או <strong>מקצוען</strong>?</em>
+        <br>
+        לחץ/י <strong>1</strong> = מתחיל &nbsp;|&nbsp; לחץ/י <strong>2</strong> = מקצוען
+      </div>
+      {% if music_first %}
+      <p>ראשית תישמע מוזיקה ברקע. תוכל/י לבחור את הקטע שהכי מתאים לך.</p>
+      {% else %}
+      <p>החלק הראשון יתנהל <strong>ללא מוזיקה</strong>.</p>
+      <p>לאחר מכן תוכל/י לבחור קטע מוזיקלי לחלק השני.</p>
+      {% endif %}
+      <p>נסה/י להישאר ממוקד/ת ולהתבונן בכל תמונה.</p>
+    </div>
+
+    <a href="/begin_block" class="btn-start" style="display:inline-block;margin-top:2rem;text-decoration:none;">
+      התחל/י ←
+    </a>
+  </div>
+</body>
+</html>

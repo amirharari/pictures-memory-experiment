@@ -1,0 +1,5 @@
+﻿participant_id,dataset,test_mode,block,trial,subset,image,image_onset_s,washout_dur_s,question_shown,response,rt_s
+113,Y,1,1,1,a,ds2_a_15.png,1.3575,5.4263,0,,
+113,Y,1,1,2,a,ds2_a_13.png,8.7936,5.2932,0,,
+113,Y,1,2,1,c,ds2_c_05.png,17.6669,4.0724,0,,
+113,Y,1,2,2,c,ds2_c_10.png,23.7476,5.743,0,,

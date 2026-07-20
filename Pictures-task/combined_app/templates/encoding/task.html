@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מטלת קידוד</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="task-body">
+
+  <div class="progress-bar-wrap">
+    <div id="progress-bar" class="progress-bar" style="width:0%"></div>
+  </div>
+  <div id="progress-label" class="progress-label">1 / {{ total }}</div>
+
+  <div class="task-card" id="task-card">
+    <div class="image-wrap">
+      <img id="stimulus" src="" alt="" class="stimulus-img" style="opacity:0">
+      <div id="fixation" class="fixation hidden">+</div>
+    </div>
+    <div id="question-panel" class="question-panel hidden">
+      <p class="question-text">האם יש בתמונה תחושה של תנועה?</p>
+      <div class="btn-row" style="justify-content:center;gap:3rem;margin-top:0.8rem">
+        <span class="key-hint"><kbd>1</kbd> כן</span>
+        <span class="key-hint"><kbd>2</kbd> לא</span>
+      </div>
+    </div>
+    <div id="loading-overlay" class="loading-overlay">
+      <div class="spinner"></div>
+    </div>
+  </div>
+
+  {% if song_url %}
+  <audio id="bg-music" src="{{ song_url }}" loop preload="auto"></audio>
+  {% endif %}
+
+  <div id="config"
+    data-image-duration="{{ image_duration_ms }}"
+    data-has-music="{{ 'true' if song_url else 'false' }}"
+    style="display:none"></div>
+
+  <script src="{{ url_for('static', filename='encoding_task.js') }}"></script>
+  <script>EncodingTask.init('/encoding');</script>
+</body>
+</html>

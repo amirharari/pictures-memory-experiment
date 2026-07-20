@@ -1,0 +1,6 @@
+﻿participant_id,session,participant_list,dataset,music_subset,no_music_subset,song,test_mode,music_first,block,trial,subset,image_filename,image_onset_ms,isi_dur_ms,question_shown,response,rt_ms
+תלמה,Baseline,3,Group_2,a,b,song_1.mp3,1,1,1,1,a,092 - 52998 - Composition.jpg,5059,4504,0,,
+תלמה,Baseline,3,Group_2,a,b,song_1.mp3,1,1,1,2,a,175 - 74690 - The Embryo.jpg,18287,4094,0,,
+תלמה,Baseline,3,Group_2,a,b,song_1.mp3,1,1,1,3,a,047 - 13481 - Fourth Avenue.jpg,27138,5673,0,,
+תלמה,Baseline,3,Group_2,a,b,song_1.mp3,1,1,1,4,a,165 - 189208 - Moeder.jpg,36794,5769,0,,
+תלמה,Baseline,3,Group_2,a,b,song_1.mp3,1,1,1,5,a,031 - 20430 - Born in Snovsk.jpg,46849,4711,1,no_response,

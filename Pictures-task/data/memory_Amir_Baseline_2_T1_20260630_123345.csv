@@ -1,0 +1,4 @@
+﻿participant_id,session,participant_list,dataset,music_subset,session_song,test_delay,test_mode,block,trial,image_filename,subset,encoding_condition,ground_truth,music_context,recognition_response,certainty,image_valence,image_arousal,rt_recognition_ms,rt_certainty_ms,rt_valence_ms,rt_arousal_ms
+Amir,Baseline,2,Group_1,b,,24h,0,1,1,198 - 238802 - Untitled.jpg,d,new,new,False,no,4,4,3,1235542,1268,1166,534
+Amir,Baseline,2,Group_1,b,,24h,0,1,2,061 - 234457 - All Alone.jpg,d,new,new,False,no,1,3,4,37383,915,683,517
+Amir,Baseline,2,Group_1,b,,24h,0,1,3,133 - 35450 - The Three Look the Other Way.jpg,d,new,new,False,no,4,2,4,625903,1165,685,700

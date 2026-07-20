@@ -1,0 +1,11 @@
+﻿participant_id,session,participant_list,dataset,music_subset,session_song,test_delay,test_mode,block,trial,image_filename,subset,encoding_condition,ground_truth,music_context,recognition_response,certainty,image_valence,image_arousal,rt_recognition_ms,rt_certainty_ms,rt_valence_ms,rt_arousal_ms
+1,Baseline,1,Group_1,a,,24h,1,1,1,064 - 257310 - Peau de soleil.jpg,b,no_music,seen,False,yes,4,4,2,3140,1481,53151,1487
+1,Baseline,1,Group_1,a,,24h,1,1,2,122 - 257350 - Mountain.jpg,c,new,new,False,no,5,3,4,10018,1562,1672,1434
+1,Baseline,1,Group_1,a,,24h,1,1,3,054 - 50317 - Cube and Vent.jpg,c,new,new,False,yes,5,2,4,5800,1546,1503,1864
+1,Baseline,1,Group_1,a,,24h,1,1,4,033 - 209555 - L'autophage (Fulgurites).jpg,b,no_music,seen,False,yes,3,4,2,3460,1152,1064,1098
+1,Baseline,1,Group_1,a,,24h,1,1,5,005 - 99542 - 1967 (Silver Brown).jpg,c,new,new,False,no,5,2,3,3429,853,963,905
+1,Baseline,1,Group_1,a,,24h,1,1,6,018 - 66198 - Pitt.jpg,b,no_music,seen,False,yes,4,2,4,3939,1152,1300,1446
+1,Baseline,1,Group_1,a,,24h,1,1,7,156 - 51723 - Machine.jpg,c,new,new,False,yes,3,2,4,3075,1382,1847,1268
+1,Baseline,1,Group_1,a,,24h,1,1,8,037 - 107281 - A la pintura Red 1-3.jpg,c,new,new,False,yes,2,5,4,3430,1569,1431,1664
+1,Baseline,1,Group_1,a,,24h,1,1,9,008 - 66204 - Ouk 2.jpg,a,music,seen,False,yes,3,5,1,3003,898,802,1234
+1,Baseline,1,Group_1,a,,24h,1,1,10,027 - 220544 - Untitled.jpg,a,music,seen,False,yes,3,4,2,2891,849,766,835

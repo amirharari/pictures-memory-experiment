@@ -1,0 +1,4 @@
+﻿participant_id,session,participant_list,dataset,music_subset,no_music_subset,song,test_mode,music_first,block,trial,subset,image_filename,image_onset_ms,isi_dur_ms,question_shown,response,rt_ms
+amir,Baseline,1,Group_1,a,b,,0,0,1,1,b,217 - 9550 - The Dreadful Feast of Flesh.jpg,2978,5721,0,,
+amir,Baseline,1,Group_1,a,b,,0,0,1,2,b,080 - 65920 - Provincetown.jpg,12241,4192,0,,
+amir,Baseline,1,Group_1,a,b,,0,0,1,3,b,151 - 72889 - Painting.jpg,19982,5145,0,,

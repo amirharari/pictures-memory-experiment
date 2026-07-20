@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מבחן זיכרון – הסתיים</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container done-container">
+    <div class="done-icon">✓</div>
+    <h1 class="done-title">המבחן הסתיים!</h1>
+    <p class="done-text">
+      תודה רבה על השתתפותך, <strong>{{ participant_id }}</strong>.<br>
+      עיכוב נבדק: <strong>{{ test_delay }}</strong> &nbsp;|&nbsp; סה"כ תמונות: <strong>{{ total }}</strong>
+    </p>
+    <p class="done-text">התשובות נשמרו בהצלחה.</p>
+    <a href="/" class="btn-start" style="display:inline-block; margin-top:1.5rem; text-decoration:none;">
+      חזרה לדף ההגדרות
+    </a>
+  </div>
+</body>
+</html>

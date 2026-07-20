@@ -1,0 +1,121 @@
+﻿participant_id,session,participant_list,dataset,music_subset,session_song,test_mode,block,trial,image_filename,subset,encoding_condition,ground_truth,music_context,recognition_response,certainty,image_valence,image_arousal,rt_recognition_ms,rt_certainty_ms,rt_valence_ms,rt_arousal_ms
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,1,146 - 58233 - For the Incantation to the Entrance.jpg,d,new,new,True,yes,3,4,3,5644,1373,4405,6348
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,2,240 - 33769 - Lousy Fear.jpg,d,new,new,True,no,4,2,3,2975,9587,6395,1779
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,3,212 - 56680 - Returning Life.jpg,d,new,new,True,no,3,3,3,3947,2230,3066,1405
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,4,158 - 15156 - The Golden Wall.jpg,d,new,new,True,yes,3,4,4,3608,5497,5408,4327
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,5,131 - 223342 - Overrun.jpg,a,no_music,seen,True,no,3,3,3,4383,1890,2088,2058
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,6,"026 - 210640 - Untitled, from Insect Series.jpg",b,music,seen,True,yes,4,3,3,3238,3067,4453,1215
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,7,090 - 145878 - Untitled.jpg,d,new,new,True,no,2,4,4,2702,3181,3887,8275
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,8,195 - 9524 - Rite.jpg,d,new,new,True,no,3,2,4,3443,3568,6826,6866
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,9,152 - 237892 - Tikpo.jpg,a,no_music,seen,True,no,3,4,3,4312,10920,5911,3755
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,10,"219 - 102208 - Composition Red, Blue, Yellow, White.jpg",d,new,new,True,yes,2,4,3,11099,18298,5681,1117
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,11,156 - 51723 - Machine.jpg,b,music,seen,True,no,3,3,2,6199,2157,1099,3812
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,12,122 - 257350 - Mountain.jpg,d,new,new,True,no,2,3,2,4239,5673,2782,2142
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,13,161 - 11103 - Composition in Brown.jpg,a,no_music,seen,True,yes,4,3,3,3233,5079,5371,1074
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,14,117 - 82544 - Abstract Composition.jpg,b,music,seen,True,yes,5,4,2,2733,2829,3446,7342
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,15,087 - 17444 - Composition with Red Arrow.jpg,b,music,seen,True,no,2,3,3,7909,3196,3651,1346
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,16,154 - 107255 - A la pintura Blue 5.jpg,b,music,seen,True,no,2,4,2,6770,9422,3567,2279
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,17,110 - 80245 - Japanese Fantasy.jpg,d,new,new,True,yes,4,4,3,2723,3393,3489,1272
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,18,012 - 64962 - Counter-Composition VIII.jpg,a,no_music,seen,True,yes,3,3,3,3000,3997,884,1280
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,19,080 - 65920 - Provincetown.jpg,d,new,new,True,yes,4,2,3,2708,3682,5257,7792
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,20,137 - 254119 - Composition.jpg,d,new,new,True,yes,4,4,3,4255,2839,3722,1273
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,21,190 - 16706 - Untitled.jpg,b,music,seen,True,no,2,3,3,3664,4144,7578,967
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,22,123 - 72353 - Abstract Landscape.jpg,b,music,seen,True,no,3,3,4,2866,1450,4328,14326
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,23,023 - 124768 - Untitled.jpg,a,no_music,seen,True,yes,2,4,3,5875,1930,6102,1459
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,24,064 - 257310 - Peau de soleil.jpg,d,new,new,True,no,2,2,2,5249,7233,5356,2394
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,25,127 - 60257 - La Ciudad Perdida (The Lost City).jpg,a,no_music,seen,True,yes,3,3,3,5603,2083,3339,1182
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,26,217 - 9550 - The Dreadful Feast of Flesh.jpg,d,new,new,True,no,2,2,4,3790,6676,8330,3607
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,27,"049 - 214080 - Untitled, Paris, March 1937.jpg",b,music,seen,True,yes,4,4,4,2969,1543,3172,3630
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,28,188 - 22479 - Study for Around a Point.jpg,d,new,new,True,no,2,4,4,2735,9701,9569,3504
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,29,088 - 80507 - Untitled (Composition with Grey Background).jpg,b,music,seen,True,yes,3,2,3,2786,2357,5504,1471
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,30,159 - 63990 - Stakim.jpg,a,no_music,seen,True,no,2,3,3,5325,5818,5857,1994
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,31,126 - 13474 - Ocean Undulations Revealing Particles of Sand and Coral.jpg,a,no_music,seen,True,yes,3,3,3,2745,2759,2632,925
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,32,036 - 32825 - Untitled.jpg,d,new,new,True,no,2,3,3,2704,3970,6297,1457
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,33,054 - 50317 - Cube and Vent.jpg,b,music,seen,True,no,2,4,2,6763,1920,7580,3385
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,34,047 - 13481 - Fourth Avenue.jpg,d,new,new,True,yes,4,2,5,2845,3479,2250,3539
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,35,045 - 105024 - Untitled.jpg,a,no_music,seen,True,yes,4,4,3,2776,4739,7738,1710
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,36,050 - 28542 - Texturology LX (Vacation in the Sun).jpg,d,new,new,True,yes,4,4,2,2711,1915,2399,2278
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,37,053 - 82542 - Abstract Composition.jpg,d,new,new,True,yes,4,2,3,2662,3223,5761,2472
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,38,"084 - 59822 - Nuclear I, CH.jpg",d,new,new,True,no,3,3,3,3131,3585,779,2122
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,39,141 - 63780 - Heraldry.jpg,b,music,seen,True,no,3,2,4,6855,1969,2711,1758
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,40,099 - 102207 - Composition Red White.jpg,b,music,seen,True,yes,3,3,3,2644,2036,1149,1316
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,41,086 - 51692 - Coss Ballance II.jpg,d,new,new,True,yes,2,4,4,14262,3465,2424,744
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,42,083 - 23979 - Capella.jpg,b,music,seen,True,yes,5,3,4,2625,1054,3061,2512
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,43,239 - 50290 - The Facetted Cliffs.jpg,b,music,seen,True,yes,3,2,4,3205,4029,5687,3041
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,44,191 - 54745 - The Rapidity of Sleep.jpg,a,no_music,seen,True,yes,5,3,3,4467,1693,12980,1449
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,45,014 - 129094 - Kewalo Close-Up.jpg,d,new,new,True,no,2,3,3,6760,8623,2485,932
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,46,008 - 66204 - Ouk 2.jpg,a,no_music,seen,True,no,3,3,4,3005,1319,2625,3968
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,47,106 - 84243 - Affiche Metro.jpg,b,music,seen,True,no,2,2,3,5491,3108,4449,4413
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,48,112 - 229369 - Study for the Muses (Eaglesmere Version).jpg,d,new,new,True,no,4,4,3,2832,2947,5137,3210
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,49,002 - 61748 - Brilliant Yellow #9.jpg,d,new,new,True,no,3,3,3,4317,1411,800,583
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,50,119 - 66017 - Entrance to New York.jpg,d,new,new,True,yes,2,2,3,2743,2375,9160,5316
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,51,118 - 189206 - Untitled.jpg,d,new,new,True,yes,3,3,3,5604,1351,699,1098
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,52,199 - 109328 - Clock.jpg,a,no_music,seen,True,yes,2,3,3,6897,5879,7134,4083
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,53,178 - 111808 - Crypt.jpg,a,no_music,seen,True,yes,2,4,4,10800,2090,3347,3826
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,54,010 - 107327 - To Lee and Glynna.jpg,a,no_music,seen,True,yes,3,3,3,2568,1260,874,1366
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,55,066 - 31600 - Earth.jpg,d,new,new,True,no,4,2,3,2641,3473,5046,1923
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,56,070 - 66210 - Untitled.jpg,d,new,new,True,no,2,3,4,8419,8415,1299,5092
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,57,227 - 254887 - Wake.jpg,d,new,new,True,no,4,3,3,2799,3735,4657,1034
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,58,226 - 63783 - Melusine and the Great Transparents.jpg,d,new,new,True,no,3,3,3,7327,3819,1103,648
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,59,097 - 102245 - Con brio.jpg,d,new,new,True,yes,3,4,4,3705,4765,3318,3042
+8725,Baseline,2,Group_1,b,song_2.mp3,0,1,60,015 - 198303 - Tableau Vert.jpg,a,no_music,seen,True,yes,3,4,2,3813,3134,2782,3277
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,61,160 - 36257 - Untitled.jpg,c,new,new,False,yes,3,2,4,6802,1204,2346,4072
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,62,176 - 107321 - Egypt Day and Night #109.jpg,c,new,new,False,no,2,3,3,4750,3474,5574,845
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,63,198 - 238802 - Untitled.jpg,c,new,new,False,yes,3,2,4,2824,4064,3885,2584
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,64,111 - 26085 - Composition #275.jpg,a,no_music,seen,False,yes,3,3,3,3239,1717,675,640
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,65,022 - 180739 - Aqua Trace.jpg,c,new,new,False,no,3,4,2,3902,2797,2888,1478
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,66,"078 - 225731 - Characters in the Night Guided by the Phosphorescent Tracks of Snails, plate three from Constellations.jpg",c,new,new,False,yes,4,2,4,2577,1733,3920,5020
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,67,071 - 12408 - Ladder to the Light.jpg,c,new,new,False,yes,2,2,3,2746,5724,4367,1802
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,68,139 - 157155 - La Jaune.jpg,c,new,new,False,no,3,3,3,2574,1098,1778,907
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,69,074 - 110991 - Orphist Composition with Disks.jpg,c,new,new,False,yes,2,4,4,2797,2993,5392,4282
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,70,037 - 107281 - A la pintura Red 1-3.jpg,a,no_music,seen,False,yes,4,3,3,2847,2956,2252,1840
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,71,061 - 234457 - All Alone.jpg,c,new,new,False,no,2,3,2,3072,5068,4920,3105
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,72,058 - 48141 - Egypto.jpg,b,music,seen,False,yes,3,3,3,5191,2945,1495,602
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,73,151 - 72889 - Painting.jpg,b,music,seen,False,yes,2,2,4,2983,4609,2700,5153
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,74,079 - 97410 - Back on Earth.jpg,a,no_music,seen,False,no,3,4,4,3324,5664,5382,4215
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,75,077 - 49717 - Composition with Figures.jpg,c,new,new,False,yes,2,4,4,3600,4135,8478,739
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,76,114 - 50529 - Physiognomy of Fragments.jpg,c,new,new,False,yes,3,3,3,3452,1514,873,952
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,77,063 - 98025 - A la pintura Red 1-3.jpg,c,new,new,False,no,3,2,2,7523,1251,1590,2438
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,78,003 - 109443 - Oeuf au Plat.jpg,b,music,seen,False,yes,4,3,3,2677,3121,6646,1953
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,79,013 - 196081 - Untitled.jpg,a,no_music,seen,False,yes,4,3,4,2584,2809,13215,2580
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,80,175 - 74690 - The Embryo.jpg,c,new,new,False,yes,3,3,3,2944,4598,6917,1157
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,81,200 - 40614 - Untitled.jpg,a,no_music,seen,False,yes,4,2,4,2814,3185,6612,3573
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,82,030 - 60736 - Cyclops.jpg,b,music,seen,False,yes,4,4,3,3465,5302,2241,9265
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,83,006 - 257404 - Blacklash.jpg,c,new,new,False,yes,3,1,4,3511,2776,2270,1996
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,84,174 - 79598 - Above the Earth.jpg,c,new,new,False,yes,3,1,4,3321,5550,2805,5726
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,85,220 - 16969 - Composition.jpg,c,new,new,False,no,2,2,2,4698,6311,4895,759
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,86,192 - 79591 - The Green Line.jpg,b,music,seen,False,yes,4,4,4,2749,3328,2941,722
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,87,168 - 251140 - White Cap.jpg,b,music,seen,False,yes,2,2,2,5163,12791,4728,2257
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,88,221 - 117561 - Green Park.jpg,c,new,new,False,yes,2,4,2,3407,13837,2648,1867
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,89,"098 - 99425 - Composition in Gray, Orange and Yellow.jpg",a,no_music,seen,False,yes,4,4,2,2582,2157,3208,2971
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,90,051 - 230054 - Metasigne.jpg,c,new,new,False,yes,4,4,4,8980,2314,2889,2572
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,91,215 - 159630 - Mold (Muffa).jpg,c,new,new,False,yes,2,3,3,3036,3353,2443,4992
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,92,032 - 129845 - Intertexture.jpg,b,music,seen,False,yes,3,3,3,3038,1558,910,600
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,93,173 - 229371 - Untitled.jpg,b,music,seen,False,yes,3,3,3,8357,1424,1498,550
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,94,145 - 60259 - Towards the Unknown.jpg,a,no_music,seen,False,yes,4,2,4,2804,9935,5973,5655
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,95,092 - 52998 - Composition.jpg,c,new,new,False,yes,2,2,2,6668,1817,4792,3656
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,96,180 - 229352 - Figure 4.jpg,a,no_music,seen,False,yes,4,3,3,4509,1823,13060,1151
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,97,184 - 236861 - Aesthetic Function in Space.jpg,c,new,new,False,yes,2,3,3,13322,1671,8484,4195
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,98,238 - 76910 - Blue Rhythm.jpg,c,new,new,False,yes,2,4,4,13064,3909,18429,3384
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,99,001 - 228850 - Orient Express I.jpg,a,no_music,seen,False,yes,4,3,3,2853,3506,2646,876
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,100,094 - 146853 - Silver Tanks.jpg,b,music,seen,False,yes,4,3,3,2784,3220,4547,1441
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,101,134 - 75643 - Duke Leader (Ladder) Not Alone.jpg,a,no_music,seen,False,yes,3,4,2,2708,12011,6068,3886
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,102,009 - 98034 - A la pintura White 7-9.jpg,b,music,seen,False,no,2,3,3,12056,3109,10035,1151
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,103,038 - 226693 - Summer.jpg,c,new,new,False,yes,3,4,2,7754,3409,4637,10705
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,104,218 - 117194 - Mattamathics.jpg,c,new,new,False,yes,3,4,2,3125,3209,6066,2773
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,105,081 - 229998 - Conjunction 79a╠éΓé¼ΓÇ£31.jpg,c,new,new,False,yes,2,3,3,2949,9976,2539,617
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,106,042 - 186720 - Untitled.jpg,b,music,seen,False,yes,4,3,3,3289,7047,31570,3039
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,107,065 - 207003 - Nine Clearings for a Standing Man.jpg,c,new,new,False,yes,4,4,2,10754,1507,3689,3104
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,108,016 - 10999 - Harmonized Region.jpg,a,no_music,seen,False,no,3,4,4,6225,2643,13031,1174
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,109,182 - 66020 - New York.jpg,b,music,seen,False,yes,3,2,4,3435,2858,4612,6083
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,110,046 - 14316 - Classic Boundaries I.jpg,b,music,seen,False,yes,3,2,2,7518,907,3685,2218
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,111,068 - 66184 - White Black Curve.jpg,a,no_music,seen,False,yes,3,3,3,9839,1542,1104,1542
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,112,033 - 209555 - L'autophage (Fulgurites).jpg,b,music,seen,False,yes,2,3,3,2589,15085,3429,1463
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,113,103 - 234003 - Ecriture 46-73.jpg,c,new,new,False,yes,3,3,3,6698,2540,1371,543
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,114,109 - 193425 - Avant le jour.jpg,c,new,new,False,yes,3,3,3,4375,1120,766,624
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,115,089 - 27103 - Beside the Sea #34.jpg,c,new,new,False,yes,2,4,2,8368,3563,7807,3946
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,116,186 - 113680 - Homage to Marcel Duchamp (recto); Construction (verso).jpg,c,new,new,False,no,4,4,3,6291,2424,13218,3928
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,117,076 - 103403 - Laughter.jpg,a,no_music,seen,False,yes,4,4,4,2569,3607,1980,4668
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,118,044 - 84246 - White (Bianco).jpg,a,no_music,seen,False,no,4,2,3,10085,3707,11280,1847
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,119,205 - 15154 - Primeval.jpg,b,music,seen,False,yes,2,2,4,2990,4038,7805,18151
+8725,Baseline,2,Group_1,b,song_2.mp3,0,2,120,157 - 77615 - Painting (Figures with Stars).jpg,a,no_music,seen,False,yes,2,2,2,2679,11542,4978,1375

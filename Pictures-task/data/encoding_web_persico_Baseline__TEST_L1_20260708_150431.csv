@@ -1,0 +1,2 @@
+﻿participant_id,session,participant_list,dataset,music_subset,no_music_subset,song,test_mode,music_first,block,trial,subset,image_filename,image_onset_ms,isi_dur_ms,question_shown,response,rt_ms
+persico,Baseline,1,Group_1,a,b,,1,0,1,1,b,058 - 48141 - Egypto.jpg,2958,5344,0,,

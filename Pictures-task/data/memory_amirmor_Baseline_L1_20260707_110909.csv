@@ -1,0 +1,21 @@
+﻿participant_id,session,participant_list,dataset,music_subset,session_song,test_mode,block,trial,image_filename,subset,encoding_condition,ground_truth,music_context,recognition_response,certainty,image_valence,image_arousal,rt_recognition_ms,rt_certainty_ms,rt_valence_ms,rt_arousal_ms
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,1,1,151 - 72889 - Painting.jpg,b,no_music,seen,True,no,3,1,5,9639,1184,2952,632
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,1,2,179 - 37749 - Departing.jpg,c,new,new,True,yes,3,4,5,3110,696,816,1048
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,1,3,171 - 117189 - Untitled.jpg,a,music,seen,True,yes,1,4,5,3192,832,912,1296
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,1,4,221 - 117561 - Green Park.jpg,c,new,new,True,yes,2,3,4,3532,840,640,1464
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,1,5,214 - 53195 - Dragon Fly.jpg,c,new,new,True,no,5,5,4,5763,688,1256,1248
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,1,6,087 - 17444 - Composition with Red Arrow.jpg,c,new,new,True,yes,5,2,2,2758,549,610,390
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,1,7,149 - 73496 - Hydra.jpg,b,no_music,seen,True,yes,3,5,5,3319,616,840,376
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,1,8,095 - 93779 - Study for the Hall of Medical Sciences Mural at the 1939 World's Fair in New York.jpg,c,new,new,True,yes,2,3,4,2601,488,512,816
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,1,9,191 - 54745 - The Rapidity of Sleep.jpg,a,music,seen,True,no,5,4,4,2799,496,840,800
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,1,10,040 - 97405 - Macy's Jet Set.jpg,b,no_music,seen,True,no,2,3,4,2899,1216,672,760
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,2,11,181 - 62326 - Wings.jpg,a,music,seen,False,yes,3,4,5,2796,864,456,425
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,2,12,115 - 117568 - Fragment.jpg,d,new,new,False,yes,2,3,3,2888,448,792,560
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,2,13,198 - 238802 - Untitled.jpg,d,new,new,False,yes,3,4,4,3235,408,1016,384
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,2,14,"138 - 30972 - Yea, They're Bucking Up Old Bob.jpg",b,no_music,seen,False,yes,2,3,3,2642,432,681,440
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,2,15,021 - 210010 - Florescence.jpg,d,new,new,False,no,3,4,4,2642,616,874,663
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,2,16,"078 - 225731 - Characters in the Night Guided by the Phosphorescent Tracks of Snails, plate three from Constellations.jpg",d,new,new,False,yes,2,2,2,2779,752,568,400
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,2,17,001 - 228850 - Orient Express I.jpg,a,music,seen,False,no,4,4,4,2417,438,505,544
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,2,18,120 - 158376 - La Campagna Series #10.jpg,b,no_music,seen,False,yes,2,2,2,2755,392,537,439
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,2,19,127 - 60257 - La Ciudad Perdida (The Lost City).jpg,a,music,seen,False,no,4,4,4,2784,744,496,392
+amirmor,Baseline,1,Group_1,a,song_1.mp3,1,2,20,038 - 226693 - Summer.jpg,d,new,new,False,yes,2,2,2,2763,296,568,408

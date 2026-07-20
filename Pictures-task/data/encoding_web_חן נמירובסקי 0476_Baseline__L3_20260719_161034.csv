@@ -1,0 +1,62 @@
+﻿participant_id,session,participant_list,dataset,music_subset,no_music_subset,song,test_mode,music_first,block,trial,subset,image_filename,image_onset_ms,isi_dur_ms,question_shown,response,rt_ms
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,1,a,143 - 78514 - Study.jpg,2736,4715,1,no_response,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,2,a,166 - 22669 - Untitled.jpg,11116,4272,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,3,a,210 - 228638 - Galaxy (Fugetsudoten; e╠ü┬ó┬¿├ª┼ô╦åa╠è┬É┼Æa╠è┬ñ┬⌐).jpg,19114,5909,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,4,a,181 - 62326 - Wings.jpg,28678,4707,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,5,a,041 - 102235 - Amorosa Tropicalia.jpg,37176,4287,1,no_response,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,6,a,"062 - 63182 - Four Triangles within a Circle, #1.jpg",44924,6261,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,7,a,183 - 84256 - The Horse.jpg,54738,4824,1,no,3308
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,8,a,116 - 102695 - Untitled.jpg,63252,5447,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,9,a,167 - 186050 - The Second Part of the Return from Parnassus.jpg,72766,6208,1,no,3135
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,10,a,017 - 72177 - Heart of Darkness.jpg,82764,5112,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,11,a,067 - 105078 - Fjord.jpg,91677,6083,1,yes,3472
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,12,a,121 - 135521 - Untitled.jpg,101958,4531,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,13,a,201 - 74164 - Symphony in Blue.jpg,110389,4563,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,14,a,107 - 80246 - Mosaic.jpg,118737,4418,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,15,a,222 - 60254 - Invention.jpg,126968,5303,1,no,3770
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,16,a,043 - 129141 - Study for the Oracle.jpg,136083,4854,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,17,a,162 - 117567 - Emergence.jpg,145230,6419,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,18,a,150 - 227588 - Untitled.jpg,155243,5643,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,19,a,102 - 63630 - Woman and Birds in Front of the Sun.jpg,164908,6246,1,no,4069
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,20,a,163 - 73402 - Constellation.jpg,175071,5917,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,21,a,236 - 58842 - Garden on Debris.jpg,184785,5502,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,22,a,055 - 23387 - Composition.jpg,194117,5878,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,23,a,136 - 6010 - Number 19.jpg,203680,4205,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,24,a,120 - 158376 - La Campagna Series #10.jpg,211462,3710,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,25,a,209 - 140613 - Figures.jpg,218793,4196,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,26,a,069 - 93343 - Red Light.jpg,226641,5582,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,27,a,140 - 120817 - Composition.jpg,235939,6236,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,28,a,231 - 158639 - Blue Note.jpg,245902,3940,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,29,a,"185 - 250755 - Untitled (Paris, rue des Grands-Augustins).jpg",253417,4254,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,1,30,a,100 - 53632 - Unreal Construction.jpg,261548,4294,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,music_rating,,,,,,,valence:5 arousal:2,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,1,b,194 - 53599 - Blooming Plant.jpg,2548,6467,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,2,b,233 - 107328 - Composition with Red Frame.jpg,13029,4265,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,3,b,082 - 244936 - Windcatchers in Pink.jpg,20810,5024,1,no,5950
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,4,b,189 - 185780 - Figure in Pink and Yellow.jpg,29508,5844,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,5,b,"138 - 30972 - Yea, They're Bucking Up Old Bob.jpg",39189,5623,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,6,b,020 - 66201 - Dewey Square.jpg,48336,3997,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,7,b,225 - 129138 - Study for El Meusaje.jpg,56017,4244,1,no,3502
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,8,b,170 - 185759 - Halleluiah.jpg,63932,4761,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,9,b,147 - 105533 - Broadway.jpg,72263,4832,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,10,b,031 - 20430 - Born in Snovsk.jpg,80694,3890,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,11,b,025 - 66164 - Homage to the Square New Light.jpg,88208,6176,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,12,b,213 - 217465 - Reflections in Space.jpg,98056,6386,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,13,b,208 - 2825 - The Idols.jpg,108086,6297,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,14,b,132 - 256803 - Untitled.jpg,117834,4000,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,15,b,155 - 50285 - Undersea Tensions.jpg,125415,3975,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,16,b,108 - 229392 - Work.jpg,133263,5563,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,17,b,133 - 35450 - The Three Look the Other Way.jpg,142577,4300,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,18,b,057 - 5421 - Untitled.jpg,150708,6217,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,19,b,105 - 5394 - Untitled.jpg,160555,5764,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,20,b,142 - 156077 - Transom #2 (Twilight).jpg,169870,4166,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,21,b,019 - 20397 - First Theme.jpg,177551,5439,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,22,b,230 - 12415 - Growth.jpg,187515,4313,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,23,b,075 - 210682 - Carnival.jpg,195713,4954,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,24,b,153 - 102580 - Otium cum Dignitade.jpg,204993,4594,1,yes,6338
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,25,b,196 - 8987 - Painting with Green Center.jpg,213474,4052,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,26,b,101 - 208201 - Untitled.jpg,221422,3861,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,27,b,028 - 60623 - Quadrangles in Two Planes.jpg,229187,3950,1,yes,4013
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,28,b,115 - 117568 - Fragment.jpg,237802,5286,1,yes,4545
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,29,b,149 - 73496 - Hydra.jpg,247933,4451,0,,
+חן נמירובסקי 0476,Baseline,3,Group_2,a,b,song_1.mp3,0,1,2,30,b,130 - 209911 - Circum I.jpg,255979,6280,0,,

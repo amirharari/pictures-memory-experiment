@@ -1,0 +1,12 @@
+﻿participant_id,session,participant_list,dataset,music_subset,no_music_subset,song,test_mode,music_first,block,trial,subset,image_filename,image_onset_ms,isi_dur_ms,question_shown,response,rt_ms
+persico,Baseline,2,Group_1,b,a,song_1.mp3,1,1,1,1,b,151 - 72889 - Painting.jpg,2314,5950,1,beginner,3808
+persico,Baseline,2,Group_1,b,a,song_1.mp3,1,1,1,2,b,015 - 198303 - Tableau Vert.jpg,11793,6488,1,beginner,3745
+persico,Baseline,2,Group_1,b,a,song_1.mp3,1,1,1,3,b,029 - 33219 - White Median.jpg,21670,5532,0,,
+persico,Baseline,2,Group_1,b,a,song_1.mp3,1,1,1,4,b,167 - 186050 - The Second Part of the Return from Parnassus.jpg,30718,4750,0,,
+persico,Baseline,2,Group_1,b,a,song_1.mp3,1,1,1,5,b,149 - 73496 - Hydra.jpg,38811,6332,1,beginner,5335
+persico,Baseline,2,Group_1,b,a,song_1.mp3,1,1,music_rating,,,,,,,valence:1 arousal:1,
+persico,Baseline,2,Group_1,b,a,song_1.mp3,1,1,2,1,a,128 - 122691 - Untitled.jpg,2408,3966,0,,
+persico,Baseline,2,Group_1,b,a,song_1.mp3,1,1,2,2,a,172 - 117258 - Reconstruction #117.jpg,10028,6450,0,,
+persico,Baseline,2,Group_1,b,a,song_1.mp3,1,1,2,3,a,"098 - 99425 - Composition in Gray, Orange and Yellow.jpg",19967,4932,1,beginner,4870
+persico,Baseline,2,Group_1,b,a,song_1.mp3,1,1,2,4,a,159 - 63990 - Stakim.jpg,28476,6252,0,,
+persico,Baseline,2,Group_1,b,a,song_1.mp3,1,1,2,5,a,216 - 117406 - Composition.jpg,38254,3778,0,,

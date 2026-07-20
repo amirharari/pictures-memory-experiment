@@ -1,0 +1,4 @@
+﻿participant_id,dataset,block,trial,subset,image,image_onset_s,washout_dur_s,question_shown,response,rt_s
+112,X,1,1,a,ds1_a_01.png,8.8742,4.8716,1,professional,2.6102
+112,X,1,2,b,ds1_b_11.png,15.7571,5.8298,1,no_response,
+112,X,1,3,a,ds1_a_13.png,23.5954,5.1185,1,no_response,

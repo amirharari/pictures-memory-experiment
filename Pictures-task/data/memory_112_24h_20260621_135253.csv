@@ -1,0 +1,2 @@
+﻿participant_id,original_dataset,foil_dataset,test_delay,trial,image_filename,subset,dataset,ground_truth,recognition_response,certainty,rt_recognition_ms,rt_certainty_ms
+112,Y,X,24h,1,ds2_a_02.png,a,Y,seen,no,2,3443,1583

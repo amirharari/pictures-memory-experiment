@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>הוראות – מבחן זיכרון</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    .instr-box { background:var(--surface); border-radius:var(--radius); padding:1.6rem 2rem; margin:1.2rem 0; line-height:2; }
+    .instr-step { display:none; }
+    .instr-step.active { display:block; }
+
+    /* progress dots */
+    .progress-dots { display:flex; justify-content:center; gap:.55rem; margin-bottom:1.6rem; }
+    .dot { width:10px; height:10px; border-radius:50%; background:var(--surface2); border:1px solid #555; transition:background .25s; }
+    .dot.done   { background:var(--yes);    border-color:var(--yes); }
+    .dot.active { background:var(--accent); border-color:var(--accent); }
+
+    /* example cards */
+    .example-row { display:flex; gap:1.4rem; flex-wrap:wrap; justify-content:center; margin:1rem 0; }
+    .example-card { background:var(--surface2); border-radius:var(--radius); padding:1.2rem 1.4rem;
+                    display:flex; flex-direction:column; align-items:center; gap:.8rem; flex:1; min-width:220px; max-width:300px; }
+    .example-label { font-size:.78rem; color:var(--muted); font-style:italic; text-align:center; }
+    .example-verdict { font-size:.95rem; font-weight:700; }
+    .verdict-yes { color:var(--yes); }
+    .verdict-no  { color:var(--no); }
+
+    /* confidence scale visual */
+    .conf-scale { display:flex; gap:.4rem; align-items:center; margin-top:.3rem; }
+    .conf-btn { width:36px; height:36px; border-radius:8px; border:2px solid #555;
+                display:flex; align-items:center; justify-content:center;
+                font-weight:700; font-size:.95rem; color:var(--muted); }
+    .conf-btn.selected { border-color:var(--accent); background:var(--accent); color:#fff; }
+
+    /* highlight box */
+    .highlight-box { background:rgba(233,69,96,.08); border:1px solid var(--accent);
+                     border-radius:var(--radius); padding:1.1rem 1.5rem; margin:1rem 0; line-height:1.9; }
+    .highlight-box.green { background:rgba(46,204,113,.08); border-color:var(--yes); }
+
+    /* quiz */
+    #quiz-section { display:none; }
+    .q-text { font-size:1.05rem; font-weight:600; margin-bottom:1.2rem; line-height:1.7; }
+    .q-options { display:flex; flex-direction:column; gap:.7rem; }
+    .q-option { background:var(--surface2); border:2px solid transparent; border-radius:10px;
+                padding:.8rem 1.2rem; cursor:pointer; font-size:.97rem; transition:border-color .2s; }
+    .q-option:hover { border-color:var(--accent); }
+    .feedback { margin-top:1rem; padding:.75rem 1rem; border-radius:var(--radius);
+                font-weight:600; font-size:.95rem; display:none; }
+    .feedback.wrong { background:rgba(233,69,96,.15); border:1px solid var(--accent); color:var(--accent); }
+    .feedback.right { background:rgba(46,204,113,.15); border:1px solid var(--yes); color:var(--yes); }
+    .step-counter { font-size:.82rem; color:var(--muted); margin-bottom:1rem; }
+  </style>
+</head>
+<body>
+  <div class="container setup-container">
+
+    <!-- ══ STEP 1 — Overview ════════════════════════════════════════════════ -->
+    <div class="instr-step active" id="step-1">
+      <h1 class="setup-title">מבחן זיכרון</h1>
+      <div class="progress-dots" id="dots-1"></div>
+
+      <div class="instr-box">
+        <p>בניסוי הקידוד ראית סדרת ציורים.</p>
+        <p>כעת נבחן את <strong>הזיכרון שלך</strong> לאותם ציורים.</p>
+        <p>בכל שלב יוצג ציור. חלק מהציורים <strong>ראית בעבר</strong>, חלק <strong>חדשים לחלוטין</strong>.</p>
+        <p>עבור כל ציור תצטרך/י לענות:</p>
+      </div>
+
+      <div class="instr-box">
+        <p>① &nbsp;<strong>האם ראית ציור זה בניסוי הקידוד?</strong> &nbsp;כן / לא</p>
+        <p>② &nbsp;<strong>כמה אתה/את בטוח/ה?</strong> &nbsp;(סולם 1–5)</p>
+        <p>③ &nbsp;<strong>אופי ההרגשה</strong> שהציור עורר — שלילית ↔ חיובית &nbsp;(1–5)</p>
+        <p>④ &nbsp;<strong>רמת עוררות</strong> — רגוע ↔ מעורר &nbsp;(1–5)</p>
+      </div>
+
+      <button class="btn-start" onclick="nextStep(2)" style="margin-top:1rem;">הבא ←</button>
+    </div>
+
+    <!-- ══ STEP 2 — Confidence rating examples ══════════════════════════════ -->
+    <div class="instr-step" id="step-2">
+      <h1 class="setup-title">דוגמאות — ביטחון בתשובה</h1>
+      <div class="progress-dots" id="dots-2"></div>
+
+      <div class="instr-box">
+        <p>לאחר שתסמן/י כן/לא, תתבקש/י לדרג את הביטחון שלך בסולם 1–5:</p>
+        <p style="text-align:center; margin:.4rem 0;">
+          <strong>1</strong> = אין לי מושג &nbsp;·&nbsp;
+          <strong>3</strong> = חושב/ת שזכרתי אך לא בטוח/ה &nbsp;·&nbsp;
+          <strong>5</strong> = בטוח/ה לחלוטין
+        </p>
+      </div>
+
+      <div class="example-row">
+
+        <!-- Example A — unsure → 3 -->
+        <div class="example-card">
+          <!-- Funny painting A: confused cat -->
+          <svg width="200" height="155" viewBox="0 0 200 155" style="border-radius:8px;background:#2c1654;" xmlns="http://www.w3.org/2000/svg">
+            <rect width="200" height="155" fill="#2c1654"/>
+            <!-- moon -->
+            <circle cx="170" cy="25" r="18" fill="#f0e68c" opacity=".85"/>
+            <circle cx="178" cy="19" r="14" fill="#2c1654"/>
+            <!-- stars -->
+            <circle cx="20" cy="15" r="2" fill="#fff" opacity=".7"/>
+            <circle cx="50" cy="30" r="1.5" fill="#fff" opacity=".6"/>
+            <circle cx="90" cy="10" r="2" fill="#fff" opacity=".8"/>
+            <circle cx="130" cy="20" r="1.5" fill="#fff" opacity=".5"/>
+            <!-- cat body -->
+            <ellipse cx="100" cy="105" rx="38" ry="30" fill="#e8a87c"/>
+            <!-- cat head -->
+            <ellipse cx="100" cy="70" rx="28" ry="25" fill="#e8a87c"/>
+            <!-- ears -->
+            <polygon points="78,52 72,38 88,50" fill="#e8a87c"/>
+            <polygon points="122,52 128,38 112,50" fill="#e8a87c"/>
+            <polygon points="80,50 75,40 87,49" fill="#f4b8a0"/>
+            <polygon points="120,50 125,40 113,49" fill="#f4b8a0"/>
+            <!-- eyes — wide open confused -->
+            <circle cx="90" cy="68" r="8" fill="#fff"/>
+            <circle cx="110" cy="68" r="8" fill="#fff"/>
+            <circle cx="91" cy="68" r="5" fill="#3a2a6e"/>
+            <circle cx="111" cy="68" r="5" fill="#3a2a6e"/>
+            <circle cx="93" cy="66" r="2" fill="#fff"/>
+            <circle cx="113" cy="66" r="2" fill="#fff"/>
+            <!-- confused spiral over head -->
+            <path d="M100,44 Q105,38 108,42 Q111,46 107,50 Q103,54 99,50" stroke="#f9ca24" stroke-width="2" fill="none"/>
+            <!-- question mark -->
+            <text x="115" y="45" font-size="14" fill="#f9ca24" font-weight="bold">?</text>
+            <!-- whiskers -->
+            <line x1="72" y1="74" x2="85" y2="76" stroke="#555" stroke-width="1.5"/>
+            <line x1="72" y1="78" x2="85" y2="78" stroke="#555" stroke-width="1.5"/>
+            <line x1="115" y1="76" x2="128" y2="74" stroke="#555" stroke-width="1.5"/>
+            <line x1="115" y1="78" x2="128" y2="78" stroke="#555" stroke-width="1.5"/>
+            <!-- mouth uncertain -->
+            <path d="M94,84 Q100,80 106,84" stroke="#c0785a" stroke-width="2" fill="none"/>
+            <!-- paws -->
+            <ellipse cx="75" cy="128" rx="14" ry="10" fill="#e8a87c"/>
+            <ellipse cx="125" cy="128" rx="14" ry="10" fill="#e8a87c"/>
+            <!-- tail -->
+            <path d="M138,110 Q158,95 155,120 Q152,140 138,132" stroke="#e8a87c" stroke-width="8" fill="none" stroke-linecap="round"/>
+          </svg>
+          <p class="example-label">"חושב/ת שראיתי... אבל לא ממש בטוח/ה"</p>
+          <p class="example-verdict verdict-yes">✓ סימנתי: כן</p>
+          <div class="conf-scale">
+            <div class="conf-btn">1</div>
+            <div class="conf-btn">2</div>
+            <div class="conf-btn selected">3</div>
+            <div class="conf-btn">4</div>
+            <div class="conf-btn">5</div>
+          </div>
+          <p class="example-label">ביטחון = <strong>3</strong></p>
+        </div>
+
+        <!-- Example B — very sure → 5 -->
+        <div class="example-card">
+          <!-- Funny painting B: surprised fish -->
+          <svg width="200" height="155" viewBox="0 0 200 155" style="border-radius:8px;background:#0a3055;" xmlns="http://www.w3.org/2000/svg">
+            <rect width="200" height="155" fill="#0a3055"/>
+            <!-- waves -->
+            <path d="M0,90 Q25,75 50,90 Q75,105 100,90 Q125,75 150,90 Q175,105 200,90 L200,155 L0,155 Z" fill="#0d4a7a" opacity=".8"/>
+            <path d="M0,110 Q30,95 60,110 Q90,125 120,110 Q150,95 180,110 L200,115 L200,155 L0,155 Z" fill="#0d3d6a" opacity=".9"/>
+            <!-- bubbles -->
+            <circle cx="60" cy="60" r="5" fill="none" stroke="#85c1e9" stroke-width="1.5" opacity=".7"/>
+            <circle cx="70" cy="40" r="3" fill="none" stroke="#85c1e9" stroke-width="1" opacity=".6"/>
+            <circle cx="55" cy="30" r="7" fill="none" stroke="#85c1e9" stroke-width="1.5" opacity=".5"/>
+            <!-- fish body -->
+            <ellipse cx="115" cy="75" rx="45" ry="28" fill="#f39c12"/>
+            <!-- tail -->
+            <polygon points="160,75 185,55 185,95" fill="#e67e22"/>
+            <!-- fin top -->
+            <path d="M100,50 Q110,38 125,47" stroke="#e67e22" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <!-- eye — huge surprised -->
+            <circle cx="88" cy="70" r="15" fill="#fff"/>
+            <circle cx="88" cy="70" r="10" fill="#1a1a2e"/>
+            <circle cx="83" cy="65" r="4" fill="#fff"/>
+            <!-- mouth open O — surprise -->
+            <ellipse cx="76" cy="83" rx="8" ry="9" fill="#1a1a2e"/>
+            <ellipse cx="76" cy="85" rx="5" ry="6" fill="#c0392b"/>
+            <!-- scales -->
+            <path d="M115,50 Q125,60 115,70" stroke="#e67e22" stroke-width="1.5" fill="none"/>
+            <path d="M130,52 Q140,62 130,72" stroke="#e67e22" stroke-width="1.5" fill="none"/>
+            <!-- exclamation -->
+            <text x="100" y="35" font-size="20" fill="#f9ca24" font-weight="bold">!</text>
+          </svg>
+          <p class="example-label">"אני בטוח/ה לחלוטין שראיתי את הציור הזה!"</p>
+          <p class="example-verdict verdict-yes">✓ סימנתי: כן</p>
+          <div class="conf-scale">
+            <div class="conf-btn">1</div>
+            <div class="conf-btn">2</div>
+            <div class="conf-btn">3</div>
+            <div class="conf-btn">4</div>
+            <div class="conf-btn selected">5</div>
+          </div>
+          <p class="example-label">ביטחון = <strong>5</strong></p>
+        </div>
+
+      </div>
+
+      <div class="highlight-box green">
+        <p>ענה/י לפי מה שאתה/את <strong>באמת</strong> מרגיש/ה — אין תשובה נכונה או שגויה לגבי הביטחון.</p>
+      </div>
+
+      <button class="btn-start" onclick="nextStep(3)" style="margin-top:1rem;">הבא ←</button>
+    </div>
+
+    <!-- ══ STEP 3 — Valence + Arousal ═══════════════════════════════════════ -->
+    <div class="instr-step" id="step-3">
+      <h1 class="setup-title">דירוג ולנס ועוררות</h1>
+      <div class="progress-dots" id="dots-3"></div>
+
+      <div class="instr-box">
+        <p>לאחר שאלת הביטחון, תתבקש/י לדרג שתי שאלות נוספות על <strong>כל</strong> ציור:</p>
+      </div>
+
+      <div class="instr-box">
+        <p><strong>ולנס</strong> — אופי ההרגשה שהציור מעורר:</p>
+        <p style="text-align:center;">
+          <strong>1</strong> = שלילית מאוד &nbsp;·&nbsp; <strong>3</strong> = ניטרלית &nbsp;·&nbsp; <strong>5</strong> = חיובית מאוד
+        </p>
+      </div>
+
+      <div class="instr-box">
+        <p><strong>עוררות</strong> — עד כמה הציור מעורר / מרגש אותך:</p>
+        <p style="text-align:center;">
+          <strong>1</strong> = רגוע / משעמם &nbsp;·&nbsp; <strong>3</strong> = בינוני &nbsp;·&nbsp; <strong>5</strong> = מאוד מעורר
+        </p>
+      </div>
+
+      <div class="highlight-box">
+        <p>דרג/י כל ציור גם אם לא ראית אותו קודם — ההרגשה שהוא מעורר בך עכשיו היא מה שחשוב.</p>
+      </div>
+
+      <button class="btn-start" onclick="nextStep(4)" style="margin-top:1rem;">הבא ←</button>
+    </div>
+
+    <!-- ══ STEP 4 — Music blocks ═════════════════════════════════════════════ -->
+    <div class="instr-step" id="step-4">
+      <h1 class="setup-title">מבנה המבחן</h1>
+      <div class="progress-dots" id="dots-4"></div>
+
+      <div class="instr-box">
+        <p>המבחן מחולק לשני חלקים:</p>
+        <p>🎵 &nbsp;<strong>חלק א׳</strong> — עם מוזיקה ברקע.</p>
+        <p>🔇 &nbsp;<strong>חלק ב׳</strong> — ללא מוזיקה.</p>
+        <p style="margin-top:.5rem;">קטע המוזיקה נקבע לפי הנחיות הניסוי ונבחר בתחילת המבחן.</p>
+        <p>אם המוזיקה מסתיימת — היא תתחיל מחדש אוטומטית.</p>
+      </div>
+
+      <div class="highlight-box green">
+        <p>ענה/י על כל השאלות בכנות לפי מה שאתה/את זוכר/ת ומרגיש/ה בפועל.</p>
+      </div>
+
+      <button class="btn-start" onclick="startQuiz()" style="margin-top:1rem;">
+        המשך לשאלות הבנה ←
+      </button>
+    </div>
+
+    <!-- ══ COMPREHENSION QUIZ ════════════════════════════════════════════════ -->
+    <div id="quiz-section">
+      <h1 class="setup-title">שאלות הבנה</h1>
+      <p class="setup-subtitle">ענה/י על כל השאלות כדי להמשיך למבחן</p>
+
+      <div class="instr-box">
+        <p class="step-counter" id="step-counter"></p>
+        <p class="q-text" id="q-text"></p>
+        <div class="q-options" id="q-options"></div>
+        <div class="feedback" id="feedback"></div>
+      </div>
+
+      <button class="btn-start" id="next-btn" onclick="nextQuestion()"
+              style="display:none; margin-top:.5rem;">השאלה הבאה ←</button>
+      <a href="/memory/task" class="btn-start" id="start-btn"
+         style="display:none; margin-top:.5rem; text-decoration:none;">התחל/י את המבחן ←</a>
+    </div>
+
+  </div>
+
+  <script>
+    const TOTAL_STEPS = 4;
+
+    function renderDots(activeStep) {
+      for (let s = 1; s <= TOTAL_STEPS; s++) {
+        const c = document.getElementById('dots-' + s);
+        if (!c) continue;
+        c.innerHTML = '';
+        for (let i = 1; i <= TOTAL_STEPS; i++) {
+          const d = document.createElement('div');
+          d.className = 'dot' + (i < activeStep ? ' done' : i === activeStep ? ' active' : '');
+          c.appendChild(d);
+        }
+      }
+    }
+    renderDots(1);
+
+    function nextStep(n) {
+      document.querySelectorAll('.instr-step').forEach(el => el.classList.remove('active'));
+      document.getElementById('step-' + n).classList.add('active');
+      renderDots(n);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function startQuiz() {
+      document.querySelectorAll('.instr-step').forEach(el => el.classList.remove('active'));
+      document.getElementById('quiz-section').style.display = 'block';
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      renderQuestion();
+    }
+
+    const questions = [
+      {
+        text: 'מה עלי לעשות בכל ציור שמוצג בפניי?',
+        options: [
+          'לציין כן/לא, לדרג ביטחון, ולדרג ולנס ועוררות',
+          'לדרג את יופי הציור בלבד',
+          'לציין את שם האמן',
+        ],
+        correct: 0,
+        wrongMsg: 'לא נכון. בכל ניסיון יש לציין כן/לא, לדרג ביטחון, ואז ולנס ועוררות.',
+      },
+      {
+        text: 'הביצועים שלי במטלת הזיכרון הם חשובים, ככל שאזכור יותר פריטים ככה הניסוי יצליח יותר',
+        options: ['נכון', 'לא נכון'],
+        correct: 1,
+        wrongMsg: 'לא נכון. אין ציפייה לזכור הכל — חשוב שתענה/י בכנות לפי מה שאתה/את זוכר/ת.',
+      },
+      {
+        text: 'המבחן מחולק ל:',
+        options: [
+          'חלק עם מוזיקה ברקע, וחלק ללא מוזיקה',
+          'חלק אחד בלבד',
+          'שלושה חלקים',
+        ],
+        correct: 0,
+        wrongMsg: 'לא נכון. המבחן מחולק לשני חלקים — אחד עם מוזיקה ואחד ללא.',
+      },
+    ];
+
+    let current = 0, answered = false;
+
+    function renderQuestion() {
+      answered = false;
+      const q = questions[current];
+      document.getElementById('step-counter').textContent =
+        'שאלה ' + (current + 1) + ' מתוך ' + questions.length;
+      document.getElementById('q-text').textContent = q.text;
+      const optDiv = document.getElementById('q-options');
+      optDiv.innerHTML = '';
+      q.options.forEach((opt, i) => {
+        const btn = document.createElement('div');
+        btn.className = 'q-option';
+        btn.textContent = opt;
+        btn.onclick = () => checkAnswer(i);
+        optDiv.appendChild(btn);
+      });
+      document.getElementById('feedback').style.display = 'none';
+      document.getElementById('next-btn').style.display = 'none';
+      document.getElementById('start-btn').style.display = 'none';
+    }
+
+    function checkAnswer(idx) {
+      if (answered) return;
+      answered = true;
+      const q   = questions[current];
+      const fb  = document.getElementById('feedback');
+      const opts = document.querySelectorAll('.q-option');
+      if (idx === q.correct) {
+        opts[idx].style.borderColor = 'var(--yes)';
+        fb.className = 'feedback right';
+        fb.textContent = '✓ נכון!';
+        fb.style.display = 'block';
+        document.getElementById(current + 1 < questions.length ? 'next-btn' : 'start-btn').style.display = 'block';
+      } else {
+        opts[idx].style.borderColor = 'var(--no)';
+        fb.className = 'feedback wrong';
+        fb.textContent = q.wrongMsg + ' אנא נסה/י שוב.';
+        fb.style.display = 'block';
+        setTimeout(() => renderQuestion(), 2200);
+      }
+    }
+
+    function nextQuestion() { current++; renderQuestion(); }
+  </script>
+</body>
+</html>

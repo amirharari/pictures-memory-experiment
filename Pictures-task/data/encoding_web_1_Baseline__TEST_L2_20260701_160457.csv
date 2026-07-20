@@ -1,0 +1,6 @@
+﻿participant_id,session,participant_list,dataset,music_subset,no_music_subset,song,test_mode,music_first,block,trial,subset,image_filename,image_onset_ms,isi_dur_ms,question_shown,response,rt_ms
+1,Baseline,2,Group_1,b,a,song_1.mp3,1,1,1,1,b,151 - 72889 - Painting.jpg,2823,5151,0,,
+1,Baseline,2,Group_1,b,a,song_1.mp3,1,1,1,2,b,121 - 135521 - Untitled.jpg,11891,5736,0,,
+1,Baseline,2,Group_1,b,a,song_1.mp3,1,1,1,3,b,120 - 158376 - La Campagna Series #10.jpg,21271,4302,0,,
+1,Baseline,2,Group_1,b,a,song_1.mp3,1,1,1,4,b,040 - 97405 - Macy's Jet Set.jpg,29477,5654,0,,
+1,Baseline,2,Group_1,b,a,song_1.mp3,1,1,1,5,b,018 - 66198 - Pitt.jpg,38884,5710,1,beginner,5303

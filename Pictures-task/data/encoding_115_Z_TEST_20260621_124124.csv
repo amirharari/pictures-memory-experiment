@@ -1,0 +1,9 @@
+﻿participant_id,dataset,song,test_mode,block,trial,subset,image,image_onset_s,washout_dur_s,question_shown,response,rt_s
+115,Z,Song 2,1,1,1,a,ds3_a_13.png,1.3897,6.3605,0,,
+115,Z,Song 2,1,1,2,a,ds3_a_07.png,9.7595,3.5238,0,,
+115,Z,Song 2,1,1,3,a,ds3_a_11.png,15.2909,6.1101,0,,
+115,Z,Song 2,1,1,4,a,ds3_a_10.png,23.4102,5.8892,0,,
+115,Z,Song 2,1,1,5,a,ds3_a_04.png,31.3085,5.7769,0,,
+115,Z,Song 2,1,1,6,a,ds3_a_05.png,39.0944,4.1844,0,,
+115,Z,Song 2,1,1,7,a,ds3_a_14.png,45.2869,4.3805,0,,
+115,Z,Song 2,1,2,1,c,ds3_c_03.png,54.2135,5.8548,1,professional,1.9079

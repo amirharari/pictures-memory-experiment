@@ -1,0 +1,2 @@
+﻿participant_id,session,participant_list,dataset,music_subset,session_song,test_delay,test_mode,block,trial,image_filename,subset,encoding_condition,ground_truth,music_context,recognition_response,certainty,image_valence,image_arousal,rt_recognition_ms,rt_certainty_ms,rt_valence_ms,rt_arousal_ms
+1,Baseline,1,Group_1,a,,24h,1,1,1,087 - 17444 - Composition with Red Arrow.jpg,c,new,new,False,yes,4,3,3,4543,2087,3535,66880

@@ -1,0 +1,121 @@
+﻿participant_id,session,participant_list,dataset,music_subset,session_song,test_mode,block,trial,image_filename,subset,encoding_condition,ground_truth,music_context,recognition_response,certainty,image_valence,image_arousal,rt_recognition_ms,rt_certainty_ms,rt_valence_ms,rt_arousal_ms
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,1,207 - 66750 - Untitled.jpg,d,new,new,True,no,4,3,4,3626,3975,9142,86998
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,2,150 - 227588 - Untitled.jpg,a,music,seen,True,yes,5,3,2,3553,1537,4417,3086
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,3,027 - 220544 - Untitled.jpg,d,new,new,True,no,5,3,1,4467,2074,7012,1793
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,4,189 - 185780 - Figure in Pink and Yellow.jpg,b,no_music,seen,True,yes,4,4,4,3321,949,2247,4569
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,5,020 - 66201 - Dewey Square.jpg,b,no_music,seen,True,no,1,2,4,3997,3970,2374,4150
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,6,223 - 190439 - Untitled.jpg,d,new,new,True,no,4,2,4,3928,844,5080,1808
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,7,104 - 102581 - Painting.jpg,d,new,new,True,no,5,1,3,3214,1434,7688,2793
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,8,216 - 117406 - Composition.jpg,d,new,new,True,yes,2,2,2,3714,1130,1784,3487
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,9,136 - 6010 - Number 19.jpg,a,music,seen,True,yes,5,4,4,3865,1280,8497,2983
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,10,024 - 152755 - So What.jpg,d,new,new,True,no,4,2,1,3468,824,6787,1447
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,11,172 - 117258 - Reconstruction #117.jpg,d,new,new,True,no,3,3,4,5185,828,5184,1931
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,12,149 - 73496 - Hydra.jpg,b,no_music,seen,True,no,2,4,4,2959,1235,3227,1554
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,13,116 - 102695 - Untitled.jpg,a,music,seen,True,yes,4,2,2,3650,2112,1782,967
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,14,041 - 102235 - Amorosa Tropicalia.jpg,a,music,seen,True,yes,5,4,4,3858,1992,5625,351
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,15,210 - 228638 - Galaxy (Fugetsudoten; e╠ü┬ó┬¿├ª┼ô╦åa╠è┬É┼Æa╠è┬ñ┬⌐).jpg,a,music,seen,True,no,2,1,2,2948,1151,3329,2261
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,16,018 - 66198 - Pitt.jpg,d,new,new,True,no,5,1,2,3412,1067,4238,2601
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,17,043 - 129141 - Study for the Oracle.jpg,a,music,seen,True,yes,3,2,4,3879,2661,4541,717
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,18,153 - 102580 - Otium cum Dignitade.jpg,b,no_music,seen,True,yes,1,5,4,3873,1090,6605,2578
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,19,"138 - 30972 - Yea, They're Bucking Up Old Bob.jpg",b,no_music,seen,True,yes,4,2,4,4612,1069,2916,1138
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,20,128 - 122691 - Untitled.jpg,d,new,new,True,no,4,1,2,3334,634,2798,3157
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,21,017 - 72177 - Heart of Darkness.jpg,a,music,seen,True,yes,5,3,3,3111,919,1759,784
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,22,048 - 70024 - Untitled.jpg,d,new,new,True,no,2,1,4,2960,1407,1159,4962
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,23,"203 - 225729 - Sunrise, plate one from Constellations.jpg",d,new,new,True,no,2,1,3,5220,4054,3364,3957
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,24,164 - 2843 - Black Number Two.jpg,d,new,new,True,no,1,1,1,8566,1027,2598,939
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,25,067 - 105078 - Fjord.jpg,a,music,seen,True,no,4,2,1,3024,738,2130,1939
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,26,209 - 140613 - Figures.jpg,a,music,seen,True,no,3,3,3,3253,3205,7982,2324
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,27,039 - 237873 - Cut Out (medium).jpg,d,new,new,True,no,5,2,4,3551,1939,9685,1833
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,28,133 - 35450 - The Three Look the Other Way.jpg,b,no_music,seen,True,yes,2,4,4,3248,1600,6251,220
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,29,230 - 12415 - Growth.jpg,b,no_music,seen,True,no,3,3,3,3008,1385,1848,200
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,30,232 - 17458 - Ballet of the Left-Handed Piano.jpg,d,new,new,True,no,2,1,4,4631,1096,3433,2055
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,31,204 - 113590 - Abstract Landscape (recto); Sheet of Sketches Figure Studies (verso).jpg,d,new,new,True,no,2,3,3,9251,4722,5212,3039
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,32,055 - 23387 - Composition.jpg,a,music,seen,True,yes,2,2,3,4048,889,6465,1579
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,33,075 - 210682 - Carnival.jpg,b,no_music,seen,True,yes,4,4,3,3006,649,4129,3130
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,34,069 - 93343 - Red Light.jpg,a,music,seen,True,no,1,4,2,2972,959,10595,4349
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,35,229 - 29761 - After Khorkum.jpg,d,new,new,True,no,2,3,4,5957,2522,1890,3322
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,36,234 - 239771 - Untitled.jpg,d,new,new,True,no,5,2,2,2931,2563,2116,2709
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,37,096 - 109454 - Study #5 Mykonos.jpg,d,new,new,True,no,3,2,1,3065,1407,3578,3102
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,38,052 - 53233 - Composition #45.jpg,d,new,new,True,yes,2,3,3,3249,1338,2707,601
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,39,233 - 107328 - Composition with Red Frame.jpg,b,no_music,seen,True,no,2,2,1,2939,958,6948,5210
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,40,121 - 135521 - Untitled.jpg,a,music,seen,True,no,2,3,4,3307,1130,3290,1522
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,41,011 - 236501 - Caos-Caos.jpg,d,new,new,True,no,1,1,4,2824,1075,2186,2316
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,42,171 - 117189 - Untitled.jpg,d,new,new,True,no,2,2,2,4991,1214,1227,806
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,43,091 - 220551 - Untitled.jpg,d,new,new,True,no,3,2,3,2896,1111,3557,1096
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,44,197 - 62375 - Singed Garden.jpg,d,new,new,True,no,2,3,3,4516,937,2986,1281
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,45,224 - 12603 - Drawing for Sculpture.jpg,d,new,new,True,no,2,3,4,5122,772,1254,497
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,46,085 - 235027 - Untitled.jpg,d,new,new,True,yes,2,3,4,3419,675,1399,662
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,47,170 - 185759 - Halleluiah.jpg,b,no_music,seen,True,yes,5,4,4,3263,931,3040,2150
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,48,231 - 158639 - Blue Note.jpg,a,music,seen,True,yes,2,3,3,3710,683,2992,1688
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,49,155 - 50285 - Undersea Tensions.jpg,b,no_music,seen,True,yes,3,2,4,3303,1324,1970,950
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,50,120 - 158376 - La Campagna Series #10.jpg,a,music,seen,True,yes,3,3,2,2995,779,1021,3280
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,51,142 - 156077 - Transom #2 (Twilight).jpg,b,no_music,seen,True,no,2,1,1,3095,2068,917,1180
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,52,007 - 15257 - Homage to the Square Yellow Signal.jpg,d,new,new,True,yes,3,3,4,2896,2226,2757,2488
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,53,206 - 65901 - Swing Music (Louis Armstrong).jpg,d,new,new,True,no,3,1,4,4418,2232,1626,5350
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,54,101 - 208201 - Untitled.jpg,b,no_music,seen,True,no,4,3,3,2864,2056,2611,683
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,55,130 - 209911 - Circum I.jpg,b,no_music,seen,True,no,4,4,4,2702,558,5975,3606
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,56,236 - 58842 - Garden on Debris.jpg,a,music,seen,True,no,2,4,2,2657,1145,1613,1323
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,57,073 - 23370 - Untitled.jpg,d,new,new,True,yes,2,2,3,3070,2192,4811,1461
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,58,072 - 149374 - Iron Sharpens Iron.jpg,d,new,new,True,yes,2,3,3,4254,1102,1751,2329
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,59,208 - 2825 - The Idols.jpg,b,no_music,seen,True,no,4,2,2,3713,1038,3639,1239
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,1,60,"135 - 225735 - Wounded People, plate seven from Constellations.jpg",d,new,new,True,yes,4,2,2,2831,1324,1329,469
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,61,129 - 78504 - Faintness (Matite).jpg,c,new,new,False,yes,2,1,5,3507,696,2211,1035
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,62,057 - 5421 - Untitled.jpg,b,no_music,seen,False,no,3,5,4,5593,1207,2855,2294
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,63,100 - 53632 - Unreal Construction.jpg,a,music,seen,False,yes,2,3,3,2816,2762,972,201
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,64,082 - 244936 - Windcatchers in Pink.jpg,b,no_music,seen,False,no,2,2,3,2659,1578,1350,2675
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,65,"062 - 63182 - Four Triangles within a Circle, #1.jpg",a,music,seen,False,yes,4,2,1,3134,1509,1311,2501
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,66,166 - 22669 - Untitled.jpg,a,music,seen,False,yes,3,3,4,2897,727,1514,558
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,67,165 - 189208 - Moeder.jpg,c,new,new,False,no,3,3,4,2832,1146,3152,1763
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,68,113 - 23133 - Untitled.jpg,c,new,new,False,no,4,3,4,2949,1089,1372,3923
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,69,228 - 204041 - Extemporaneous.jpg,c,new,new,False,no,1,2,2,3341,2378,3550,764
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,70,025 - 66164 - Homage to the Square New Light.jpg,b,no_music,seen,False,yes,2,3,4,3736,866,1474,3040
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,71,194 - 53599 - Blooming Plant.jpg,b,no_music,seen,False,no,4,4,4,7171,1818,1986,1826
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,72,144 - 22369 - Painting 62.jpg,c,new,new,False,no,5,1,4,3108,750,4482,978
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,73,031 - 20430 - Born in Snovsk.jpg,b,no_music,seen,False,yes,2,4,4,2889,579,1778,1710
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,74,213 - 217465 - Reflections in Space.jpg,b,no_music,seen,False,no,1,4,4,2715,931,4603,7580
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,75,237 - 146994 - Ice (1).jpg,c,new,new,False,no,4,3,5,6310,1903,3817,3102
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,76,028 - 60623 - Quadrangles in Two Planes.jpg,b,no_music,seen,False,yes,2,4,3,7187,808,2123,744
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,77,115 - 117568 - Fragment.jpg,b,no_music,seen,False,yes,5,4,3,2900,752,2279,2178
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,78,107 - 80246 - Mosaic.jpg,a,music,seen,False,yes,3,4,4,3304,600,3141,455
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,79,147 - 105533 - Broadway.jpg,b,no_music,seen,False,no,4,2,4,2915,1515,3025,1083
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,80,056 - 24658 - 21992.jpg,c,new,new,False,yes,4,2,4,2935,754,2388,2327
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,81,108 - 229392 - Work.jpg,b,no_music,seen,False,yes,5,4,4,2773,671,3379,702
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,82,187 - 53501 - Trinity.jpg,c,new,new,False,no,4,5,4,2806,1427,2171,3439
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,83,021 - 210010 - Florescence.jpg,c,new,new,False,no,3,4,2,2869,2067,2441,1721
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,84,125 - 80238 - Composition in Brown.jpg,c,new,new,False,no,3,3,3,2792,2234,4203,1447
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,85,179 - 37749 - Departing.jpg,c,new,new,False,yes,1,4,2,3281,565,1654,1718
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,86,102 - 63630 - Woman and Birds in Front of the Sun.jpg,a,music,seen,False,yes,4,5,4,3066,2185,2522,1475
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,87,162 - 117567 - Emergence.jpg,a,music,seen,False,yes,2,5,5,2920,3031,5644,1203
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,88,140 - 120817 - Composition.jpg,a,music,seen,False,yes,3,3,3,2744,901,3190,673
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,89,034 - 93349 - Untitled.jpg,c,new,new,False,no,1,1,2,3072,3073,3596,10625
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,90,163 - 73402 - Constellation.jpg,a,music,seen,False,yes,2,4,4,2783,1647,5874,4154
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,91,148 - 129827 - The Wedding Gifts.jpg,c,new,new,False,no,3,4,2,3043,595,1718,1472
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,92,093 - 99611 - 26987.jpg,c,new,new,False,no,1,2,2,5703,3591,6020,908
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,93,004 - 251290 - Gold Drawing #77.jpg,c,new,new,False,no,2,4,1,3117,2826,1881,2053
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,94,196 - 8987 - Painting with Green Center.jpg,b,no_music,seen,False,no,3,2,4,6661,2398,9630,4361
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,95,235 - 65963 - Ocean and Rocks.jpg,c,new,new,False,no,2,2,1,6112,2908,4858,1344
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,96,211 - 237886 - Waterfall.jpg,c,new,new,False,no,2,5,4,3124,953,1172,1372
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,97,177 - 61650 - 11th January 1981.jpg,c,new,new,False,no,2,3,3,3016,1215,3196,207
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,98,167 - 186050 - The Second Part of the Return from Parnassus.jpg,a,music,seen,False,no,2,3,3,10608,1695,2861,1070
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,99,029 - 33219 - White Median.jpg,c,new,new,False,no,4,3,1,2793,923,1634,2531
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,100,019 - 20397 - First Theme.jpg,b,no_music,seen,False,no,2,2,3,2872,1287,9938,2652
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,101,181 - 62326 - Wings.jpg,a,music,seen,False,no,3,3,1,3997,7955,2371,4051
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,102,059 - 222922 - Untitled.jpg,c,new,new,False,no,1,2,2,3181,769,1183,572
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,103,095 - 93779 - Study for the Hall of Medical Sciences Mural at the 1939 World's Fair in New York.jpg,c,new,new,False,yes,2,3,4,2801,711,951,441
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,104,214 - 53195 - Dragon Fly.jpg,c,new,new,False,no,2,2,1,7369,889,641,2794
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,105,005 - 99542 - 1967 (Silver Brown).jpg,c,new,new,False,yes,1,3,3,2435,1310,2584,347
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,106,225 - 129138 - Study for El Meusaje.jpg,b,no_music,seen,False,yes,1,2,4,3352,6637,2026,3935
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,107,132 - 256803 - Untitled.jpg,b,no_music,seen,False,yes,5,4,4,2968,676,2874,613
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,108,222 - 60254 - Invention.jpg,a,music,seen,False,no,1,2,1,2880,1640,12796,1392
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,109,201 - 74164 - Symphony in Blue.jpg,a,music,seen,False,no,4,5,1,2678,1082,11446,716
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,110,035 - 66190 - Number Three.jpg,c,new,new,False,no,4,4,4,2571,420,3397,241
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,111,193 - 47939 - Fragment of a City.jpg,c,new,new,False,no,2,3,1,2881,525,1770,1708
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,112,040 - 97405 - Macy's Jet Set.jpg,c,new,new,False,no,2,2,4,11691,848,1130,746
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,113,202 - 158375 - Untitled.jpg,c,new,new,False,yes,3,4,1,2547,483,1613,1674
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,114,143 - 78514 - Study.jpg,a,music,seen,False,yes,1,2,5,4240,1817,6983,2384
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,115,"185 - 250755 - Untitled (Paris, rue des Grands-Augustins).jpg",a,music,seen,False,no,2,2,1,2879,553,1584,587
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,116,060 - 152753 - Untitled.jpg,c,new,new,False,no,1,2,4,3066,1545,7153,1088
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,117,124 - 234101 - Burnt Umber and Ultramarine.jpg,c,new,new,False,yes,2,3,2,3771,826,2483,1715
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,118,169 - 185048 - Empathy Displacement Loopy in Blue and Orange.jpg,c,new,new,False,no,2,4,4,8650,1675,5734,5699
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,119,183 - 84256 - The Horse.jpg,a,music,seen,False,no,3,3,4,2893,1117,1275,695
+noam harari - 208449405,Baseline,3,Group_2,a,song_2.mp3,0,2,120,105 - 5394 - Untitled.jpg,b,no_music,seen,False,yes,2,4,4,7400,1605,11695,938

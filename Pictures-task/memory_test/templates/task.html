@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מבחן זיכרון</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="task-body">
+
+  <!-- Progress bar -->
+  <div class="progress-bar-wrap">
+    <div id="progress-bar" class="progress-bar" style="width:0%"></div>
+  </div>
+  <div id="progress-label" class="progress-label">1 / {{ total }}</div>
+
+  <!-- Block transition overlay (Test 2 only) -->
+  <div id="block-transition" class="block-transition hidden">
+    <div class="block-transition-inner">
+      <p id="block-transition-text" class="block-transition-text"></p>
+      <p class="block-transition-sub">לחץ/י כדי להמשיך</p>
+    </div>
+  </div>
+
+  <!-- Main task card -->
+  <div class="task-card" id="task-card">
+
+    <!-- Image display -->
+    <div class="image-wrap">
+      <img id="stimulus" src="" alt="stimulus" class="stimulus-img">
+    </div>
+
+    <!-- Step 1: Recognition -->
+    <div id="step-recognition" class="question-panel hidden">
+      <p class="question-text">האם ראית תמונה זו בעבר?</p>
+      <div class="btn-row">
+        <button class="btn-choice btn-yes" onclick="handleRecognition('yes')">כן</button>
+        <button class="btn-choice btn-no"  onclick="handleRecognition('no')">לא</button>
+      </div>
+    </div>
+
+    <!-- Step 2: Certainty (hidden initially) -->
+    <div id="step-certainty" class="question-panel hidden">
+      <p class="question-text">עד כמה אתה/את בטוח/ה?</p>
+      <div class="certainty-scale">
+        <div class="scale-labels">
+          <span>בטוח/ה שלא</span>
+          <span>בטוח/ה שכן</span>
+        </div>
+        <div class="scale-buttons">
+          <button class="btn-scale" onclick="handleCertainty(1)">1</button>
+          <button class="btn-scale" onclick="handleCertainty(2)">2</button>
+          <button class="btn-scale" onclick="handleCertainty(3)">3</button>
+          <button class="btn-scale" onclick="handleCertainty(4)">4</button>
+          <button class="btn-scale" onclick="handleCertainty(5)">5</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 3: Image Valence (hidden initially) -->
+    <div id="step-valence" class="question-panel hidden">
+      <p class="question-label">אופי ההרגשה</p>
+      <p class="question-text">באיזו מידה ההרגשה שהתמונה עוררה בך הייתה שלילית, למשל עצב או אי־נעימות, או חיובית, למשל שמחה או נעימות?</p>
+      <div class="certainty-scale">
+        <div class="scale-labels">
+          <span>1 = שלילית מאוד</span>
+          <span>5 = חיובית מאוד</span>
+        </div>
+        <div class="scale-buttons">
+          <button class="btn-scale" onclick="handleValence(1)">1</button>
+          <button class="btn-scale" onclick="handleValence(2)">2</button>
+          <button class="btn-scale" onclick="handleValence(3)">3</button>
+          <button class="btn-scale" onclick="handleValence(4)">4</button>
+          <button class="btn-scale" onclick="handleValence(5)">5</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 4: Image Arousal (hidden initially) -->
+    <div id="step-arousal" class="question-panel hidden">
+      <p class="question-label">רמת עוררות</p>
+      <p class="question-text">באיזו מידה התמונה גרמה לך להרגיש רגוע/ה ומתון/ה, למשל נינוח/ה, או מעורר/ת ואקטיבי/ת, למשל דרוך/ה או כועס/ת?</p>
+      <div class="certainty-scale">
+        <div class="scale-labels">
+          <span>1 = רגוע/ה מאוד</span>
+          <span>5 = מעורר/ת מאוד</span>
+        </div>
+        <div class="scale-buttons">
+          <button class="btn-scale" onclick="handleArousal(1)">1</button>
+          <button class="btn-scale" onclick="handleArousal(2)">2</button>
+          <button class="btn-scale" onclick="handleArousal(3)">3</button>
+          <button class="btn-scale" onclick="handleArousal(4)">4</button>
+          <button class="btn-scale" onclick="handleArousal(5)">5</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Loading / transition overlay -->
+    <div id="loading-overlay" class="loading-overlay hidden">
+      <div class="spinner"></div>
+    </div>
+
+  </div><!-- /.task-card -->
+
+  <!-- Background music (Test 2 only) -->
+  {% if song_url %}
+  <audio id="bg-music" src="{{ song_url }}" loop preload="auto"></audio>
+  {% endif %}
+
+  <script src="{{ url_for('static', filename='task.js') }}"></script>
+  <script>
+    MemoryTask.init({{ total }}, {{ test_number }});
+  </script>
+</body>
+</html>

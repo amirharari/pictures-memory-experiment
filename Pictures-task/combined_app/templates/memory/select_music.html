@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>בחירת מוזיקה – מבחן זיכרון</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    .music-grid { display:flex; flex-direction:column; gap:1.4rem; max-width:560px; margin:2rem auto; }
+    .music-card { background:#1e1e2e; border:2px solid #3a3a5c; border-radius:12px; padding:1.2rem 1.6rem; cursor:pointer; transition:border-color .2s, background .2s; }
+    .music-card:hover { border-color:#7c7cff; }
+    .music-card.selected { border-color:#7c7cff; background:#2a2a4a; }
+    .music-card h3 { margin:0 0 .8rem 0; font-size:1rem; color:#aaa; }
+    .music-card audio { width:100%; accent-color:#7c7cff; }
+    .select-btn { display:block; margin:.8rem 0 0 0; padding:.5rem 1.2rem; background:#3a3a5c; color:#fff; border:none; border-radius:8px; cursor:pointer; font-size:.95rem; transition:background .2s; }
+    .select-btn:hover { background:#7c7cff; }
+    .select-btn.chosen { background:#7c7cff; }
+    .confirm-area { text-align:center; margin-top:2rem; }
+    .btn-confirm { padding:.8rem 2.5rem; font-size:1.1rem; background:#4c4cff; color:#fff; border:none; border-radius:10px; cursor:pointer; opacity:.4; pointer-events:none; transition:opacity .2s, background .2s; }
+    .btn-confirm.active { opacity:1; pointer-events:auto; }
+    .btn-confirm.active:hover { background:#6a6aff; }
+    .hint { color:#888; font-size:.9rem; margin-top:.5rem; }
+  </style>
+</head>
+<body>
+  <div class="container setup-container">
+    <h1 class="setup-title">בחר/י את המוזיקה שלך</h1>
+    <p class="setup-subtitle">
+      האזן/י לשלושת הקטעים ובחר/י את זה שהכי מוכר/מוכרת לך מיום הקידוד.
+    </p>
+
+    <div class="music-grid" id="musicGrid">
+      {% for song in songs %}
+      <div class="music-card" id="card-{{ loop.index }}">
+        <h3>קטע {{ loop.index }}</h3>
+        <audio controls preload="none">
+          <source src="/audio/{{ song }}" type="audio/mpeg">
+        </audio>
+        <button class="select-btn" onclick="selectSong('{{ song }}', {{ loop.index }})">
+          בחר/י קטע זה
+        </button>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="confirm-area">
+      <form id="confirmForm" action="/memory/confirm_music" method="post">
+        <input type="hidden" name="chosen_song" id="chosenSongInput" value="">
+        <button type="submit" class="btn-confirm" id="confirmBtn">
+          המשך למבחן הזיכרון ←
+        </button>
+        <p class="hint" id="hintText">האזן/י ובחר/י קטע לפני שממשיכים</p>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    function selectSong(filename, idx) {
+      document.querySelectorAll('.music-card').forEach(c => c.classList.remove('selected'));
+      document.querySelectorAll('.select-btn').forEach(b => b.classList.remove('chosen'));
+      document.getElementById('card-' + idx).classList.add('selected');
+      document.querySelector('#card-' + idx + ' .select-btn').classList.add('chosen');
+      document.getElementById('chosenSongInput').value = filename;
+      document.getElementById('confirmBtn').classList.add('active');
+      document.getElementById('hintText').textContent = 'קטע ' + idx + ' נבחר — לחץ/י כדי להמשיך';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+﻿participant_id,session,participant_list,dataset,music_subset,session_song,test_mode,block,trial,image_filename,subset,encoding_condition,ground_truth,music_context,recognition_response,certainty,image_valence,image_arousal,rt_recognition_ms,rt_certainty_ms,rt_valence_ms,rt_arousal_ms
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,1,170 - 185759 - Halleluiah.jpg,b,music,seen,True,no,2,3,4,23058,7565,7844,4767
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,2,179 - 37749 - Departing.jpg,c,new,new,True,no,2,3,4,7756,4357,9036,2356
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,3,121 - 135521 - Untitled.jpg,a,no_music,seen,True,yes,3,4,4,4068,3096,3937,4010
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,4,163 - 73402 - Constellation.jpg,a,no_music,seen,True,yes,4,4,2,4788,1751,3820,2987
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,5,144 - 22369 - Painting 62.jpg,c,new,new,True,no,5,1,4,4578,3524,2876,4437
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,6,140 - 120817 - Composition.jpg,a,no_music,seen,True,yes,4,3,3,3780,2464,3855,891
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,7,095 - 93779 - Study for the Hall of Medical Sciences Mural at the 1939 World's Fair in New York.jpg,c,new,new,True,no,2,4,2,11679,1994,2333,1333
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,8,142 - 156077 - Transom #2 (Twilight).jpg,b,music,seen,True,yes,4,4,2,3613,1250,9848,2120
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,9,228 - 204041 - Extemporaneous.jpg,c,new,new,True,no,3,2,4,4652,4190,9246,3430
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,10,177 - 61650 - 11th January 1981.jpg,c,new,new,True,no,4,4,2,3454,1892,4477,4174
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,11,005 - 99542 - 1967 (Silver Brown).jpg,c,new,new,True,no,5,3,3,3482,1473,4667,2363
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,12,019 - 20397 - First Theme.jpg,b,music,seen,True,yes,5,3,1,3204,1261,4261,2129
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,13,021 - 210010 - Florescence.jpg,c,new,new,True,no,3,5,1,4119,4817,3061,1628
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,14,169 - 185048 - Empathy Displacement Loopy in Blue and Orange.jpg,c,new,new,True,no,3,3,5,6698,3512,6384,1576
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,15,102 - 63630 - Woman and Birds in Front of the Sun.jpg,a,no_music,seen,True,yes,5,4,4,3557,2039,6773,2690
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,16,060 - 152753 - Untitled.jpg,c,new,new,True,no,5,3,3,3326,1627,4543,590
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,17,153 - 102580 - Otium cum Dignitade.jpg,b,music,seen,True,yes,2,4,2,3368,1089,5553,2422
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,18,059 - 222922 - Untitled.jpg,c,new,new,True,yes,1,3,3,13341,1215,2571,655
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,19,093 - 99611 - 26987.jpg,c,new,new,True,no,4,2,4,4397,2003,5153,1546
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,20,213 - 217465 - Reflections in Space.jpg,b,music,seen,True,no,1,4,2,6622,2424,2836,3622
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,21,150 - 227588 - Untitled.jpg,a,no_music,seen,True,yes,4,2,2,3559,1239,3484,2651
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,22,214 - 53195 - Dragon Fly.jpg,c,new,new,True,yes,2,4,2,4408,2658,1907,1517
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,23,187 - 53501 - Trinity.jpg,c,new,new,True,yes,3,3,3,3365,3041,3152,950
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,24,101 - 208201 - Untitled.jpg,b,music,seen,True,no,2,4,1,4709,1215,2727,1634
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,25,237 - 146994 - Ice (1).jpg,c,new,new,True,yes,3,5,2,3917,3847,2975,1562
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,26,055 - 23387 - Composition.jpg,a,no_music,seen,True,no,2,3,3,4165,1657,4367,729
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,27,235 - 65963 - Ocean and Rocks.jpg,c,new,new,True,yes,2,4,2,3112,1703,4907,3065
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,28,132 - 256803 - Untitled.jpg,b,music,seen,True,no,2,4,2,5154,1711,2924,876
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,29,225 - 129138 - Study for El Meusaje.jpg,b,music,seen,True,yes,4,2,4,3175,1376,9063,2595
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,30,107 - 80246 - Mosaic.jpg,a,no_music,seen,True,yes,5,4,4,3075,1282,5054,1549
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,31,105 - 5394 - Untitled.jpg,b,music,seen,True,yes,2,3,3,3420,1266,2133,581
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,32,211 - 237886 - Waterfall.jpg,c,new,new,True,no,2,4,2,3869,4111,1808,1111
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,33,040 - 97405 - Macy's Jet Set.jpg,c,new,new,True,no,4,4,4,3641,1628,2019,893
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,34,029 - 33219 - White Median.jpg,c,new,new,True,no,5,3,3,3910,1776,2180,671
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,35,035 - 66190 - Number Three.jpg,c,new,new,True,no,4,4,4,3262,1038,1909,725
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,36,034 - 93349 - Untitled.jpg,c,new,new,True,yes,2,3,3,6805,2853,2467,1203
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,37,129 - 78504 - Faintness (Matite).jpg,c,new,new,True,yes,2,1,5,3387,2522,2129,1931
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,38,167 - 186050 - The Second Part of the Return from Parnassus.jpg,a,no_music,seen,True,yes,4,4,1,3379,1143,2390,1541
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,39,056 - 24658 - 21992.jpg,c,new,new,True,no,2,5,5,2991,2197,1121,6253
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,40,196 - 8987 - Painting with Green Center.jpg,b,music,seen,True,yes,2,4,4,3322,1858,2405,1660
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,41,149 - 73496 - Hydra.jpg,b,music,seen,True,yes,4,4,4,3232,2493,1741,1283
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,42,143 - 78514 - Study.jpg,a,no_music,seen,True,yes,2,4,4,2897,3761,1787,1216
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,43,113 - 23133 - Untitled.jpg,c,new,new,True,no,4,4,4,3123,1639,1894,1004
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,44,069 - 93343 - Red Light.jpg,a,no_music,seen,True,yes,5,4,4,3487,1046,2382,1188
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,45,031 - 20430 - Born in Snovsk.jpg,b,music,seen,True,yes,4,4,1,3290,1261,2389,1217
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,46,202 - 158375 - Untitled.jpg,c,new,new,True,yes,2,4,2,2942,1003,2862,3510
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,47,201 - 74164 - Symphony in Blue.jpg,a,no_music,seen,True,yes,4,4,1,3094,996,2663,1019
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,48,004 - 251290 - Gold Drawing #77.jpg,c,new,new,True,no,2,4,2,3196,1968,2457,1548
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,49,193 - 47939 - Fragment of a City.jpg,c,new,new,True,yes,2,4,2,3527,1004,1504,1166
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,50,136 - 6010 - Number 19.jpg,a,no_music,seen,True,no,2,4,2,3722,1491,1607,804
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,51,148 - 129827 - The Wedding Gifts.jpg,c,new,new,True,no,4,4,4,3359,2633,1726,613
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,52,115 - 117568 - Fragment.jpg,b,music,seen,True,yes,2,4,2,2931,1136,1527,1865
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,53,165 - 189208 - Moeder.jpg,c,new,new,True,no,4,1,1,2904,1025,4256,2368
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,54,194 - 53599 - Blooming Plant.jpg,b,music,seen,True,yes,4,3,3,3585,3009,2945,744
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,55,067 - 105078 - Fjord.jpg,a,no_music,seen,True,yes,4,3,4,2987,2405,2331,3144
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,56,162 - 117567 - Emergence.jpg,a,no_music,seen,True,yes,4,2,3,4123,3408,2415,4109
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,57,183 - 84256 - The Horse.jpg,a,no_music,seen,True,yes,4,4,4,3662,3358,2979,2200
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,58,125 - 80238 - Composition in Brown.jpg,c,new,new,True,yes,4,4,4,3347,3439,2235,2420
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,59,057 - 5421 - Untitled.jpg,b,music,seen,True,yes,5,4,3,3188,1956,2318,3038
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,1,60,124 - 234101 - Burnt Umber and Ultramarine.jpg,c,new,new,True,no,2,3,3,2952,1076,1696,657
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,61,209 - 140613 - Figures.jpg,a,no_music,seen,False,yes,4,4,3,3039,982,3134,1283
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,62,147 - 105533 - Broadway.jpg,b,music,seen,False,yes,4,5,5,3004,928,1911,833
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,63,"138 - 30972 - Yea, They're Bucking Up Old Bob.jpg",b,music,seen,False,yes,3,4,4,4777,1350,1947,959
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,64,018 - 66198 - Pitt.jpg,d,new,new,False,no,4,4,4,3274,848,1580,571
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,65,075 - 210682 - Carnival.jpg,b,music,seen,False,yes,3,4,2,3355,1749,1440,1201
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,66,164 - 2843 - Black Number Two.jpg,d,new,new,False,yes,2,2,4,3980,1911,1350,1189
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,67,172 - 117258 - Reconstruction #117.jpg,d,new,new,False,no,2,3,3,3040,4126,1726,524
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,68,223 - 190439 - Untitled.jpg,d,new,new,False,no,1,3,3,6224,1718,2849,479
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,69,024 - 152755 - So What.jpg,d,new,new,False,no,5,4,1,3082,982,1712,2008
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,70,116 - 102695 - Untitled.jpg,a,no_music,seen,False,yes,4,3,3,3254,1018,1773,539
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,71,011 - 236501 - Caos-Caos.jpg,d,new,new,False,yes,2,3,3,3320,2341,3385,1757
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,72,133 - 35450 - The Three Look the Other Way.jpg,b,music,seen,False,yes,4,2,2,4130,797,1735,1370
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,73,"185 - 250755 - Untitled (Paris, rue des Grands-Augustins).jpg",a,no_music,seen,False,yes,2,3,3,2786,1701,1550,445
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,74,229 - 29761 - After Khorkum.jpg,d,new,new,False,yes,2,2,2,3364,1445,7454,1255
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,75,028 - 60623 - Quadrangles in Two Planes.jpg,b,music,seen,False,yes,4,4,4,2984,2079,3655,633
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,76,104 - 102581 - Painting.jpg,d,new,new,False,yes,2,3,3,3356,1478,1660,553
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,77,108 - 229392 - Work.jpg,b,music,seen,False,yes,4,4,3,2863,1645,2148,1861
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,78,073 - 23370 - Untitled.jpg,d,new,new,False,yes,3,2,2,28571,5232,2354,1129
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,79,052 - 53233 - Composition #45.jpg,d,new,new,False,yes,2,2,2,4961,1417,1743,1076
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,80,204 - 113590 - Abstract Landscape (recto); Sheet of Sketches Figure Studies (verso).jpg,d,new,new,False,yes,2,3,3,5031,6235,4943,1220
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,81,236 - 58842 - Garden on Debris.jpg,a,no_music,seen,False,yes,3,4,4,3233,3188,1424,523
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,82,222 - 60254 - Invention.jpg,a,no_music,seen,False,yes,3,2,3,4662,3298,3100,2915
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,83,230 - 12415 - Growth.jpg,b,music,seen,False,no,2,3,1,3623,1973,3178,1224
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,84,072 - 149374 - Iron Sharpens Iron.jpg,d,new,new,False,yes,2,3,3,29957,1181,2281,471
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,85,232 - 17458 - Ballet of the Left-Handed Piano.jpg,d,new,new,False,yes,3,2,3,3377,5624,2284,2686
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,86,216 - 117406 - Composition.jpg,d,new,new,False,yes,2,3,3,4729,1159,1114976,391
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,87,171 - 117189 - Untitled.jpg,d,new,new,False,no,2,4,1,4236,1424,1540,967
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,88,048 - 70024 - Untitled.jpg,d,new,new,False,yes,2,4,3,4678,804,2160,2134
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,89,208 - 2825 - The Idols.jpg,b,music,seen,False,yes,4,3,3,33141,1230,4546,463
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,90,082 - 244936 - Windcatchers in Pink.jpg,b,music,seen,False,yes,4,4,3,3126,886,2294,1564
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,91,128 - 122691 - Untitled.jpg,d,new,new,False,yes,2,3,3,2750,1137,1592,390
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,92,130 - 209911 - Circum I.jpg,b,music,seen,False,yes,2,4,1,3116,987,7118,855
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,93,120 - 158376 - La Campagna Series #10.jpg,a,no_music,seen,False,yes,2,2,4,2857,2272,5157,2965
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,94,206 - 65901 - Swing Music (Louis Armstrong).jpg,d,new,new,False,no,3,1,5,3104,1830,1690,1041
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,95,189 - 185780 - Figure in Pink and Yellow.jpg,b,music,seen,False,yes,2,3,3,2837,1237,2051,415
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,96,166 - 22669 - Untitled.jpg,a,no_music,seen,False,yes,4,4,4,2880,967,3548,1165
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,97,"135 - 225735 - Wounded People, plate seven from Constellations.jpg",d,new,new,False,yes,4,4,4,2924,1298,2125,427
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,98,091 - 220551 - Untitled.jpg,d,new,new,False,yes,2,3,3,2972,811,1603,383
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,99,020 - 66201 - Dewey Square.jpg,b,music,seen,False,yes,4,3,3,3399,2605,3843,467
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,100,210 - 228638 - Galaxy (Fugetsudoten; e╠ü┬ó┬¿├ª┼ô╦åa╠è┬É┼Æa╠è┬ñ┬⌐).jpg,a,no_music,seen,False,yes,3,3,3,4331,2011,2431,3105
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,101,085 - 235027 - Untitled.jpg,d,new,new,False,yes,3,3,3,3073,2360,1351,426
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,102,224 - 12603 - Drawing for Sculpture.jpg,d,new,new,False,yes,3,3,3,3260,2567,1283,473
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,103,100 - 53632 - Unreal Construction.jpg,a,no_music,seen,False,yes,4,4,2,3985,2145,2419,1100
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,104,096 - 109454 - Study #5 Mykonos.jpg,d,new,new,False,yes,3,4,1,5849,1919,20226,1992
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,105,197 - 62375 - Singed Garden.jpg,d,new,new,False,yes,3,3,3,3231,1727,1993,1188
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,106,027 - 220544 - Untitled.jpg,d,new,new,False,no,4,3,3,2945,1219,1674,376
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,107,231 - 158639 - Blue Note.jpg,a,no_music,seen,False,yes,4,2,4,3061,2915,2420,1441
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,108,025 - 66164 - Homage to the Square New Light.jpg,b,music,seen,False,yes,2,2,2,4269,1049,3312,2400
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,109,"203 - 225729 - Sunrise, plate one from Constellations.jpg",d,new,new,False,yes,4,1,4,3062,945,1867,1329
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,110,041 - 102235 - Amorosa Tropicalia.jpg,a,no_music,seen,False,yes,5,5,5,3147,1189,3595,568
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,111,007 - 15257 - Homage to the Square Yellow Signal.jpg,d,new,new,False,no,3,3,3,3713,1152,1993,591
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,112,"062 - 63182 - Four Triangles within a Circle, #1.jpg",a,no_music,seen,False,yes,4,4,2,3756,1595,2850,863
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,113,181 - 62326 - Wings.jpg,a,no_music,seen,False,yes,2,3,3,3525,750,3823,421
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,114,039 - 237873 - Cut Out (medium).jpg,d,new,new,False,no,4,4,4,3146,1535,2368,671
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,115,155 - 50285 - Undersea Tensions.jpg,b,music,seen,False,yes,3,2,4,3243,1145,1402,937
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,116,207 - 66750 - Untitled.jpg,d,new,new,False,yes,2,4,2,3135,1086,3159,885
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,117,234 - 239771 - Untitled.jpg,d,new,new,False,yes,2,3,3,4312,1092,1446,458
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,118,043 - 129141 - Study for the Oracle.jpg,a,no_music,seen,False,yes,4,2,3,2933,1336,3431,2769
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,119,233 - 107328 - Composition with Red Frame.jpg,b,music,seen,False,yes,2,2,2,2813,988,1837,702
+GAYA-ID_NUMBER,Baseline,4,Group_2,b,song_3.mp3,0,2,120,017 - 72177 - Heart of Darkness.jpg,a,no_music,seen,False,yes,2,3,3,3211,1468,1541,510

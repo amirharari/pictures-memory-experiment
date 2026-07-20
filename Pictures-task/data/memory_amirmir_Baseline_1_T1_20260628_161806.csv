@@ -1,0 +1,3 @@
+﻿participant_id,session,participant_list,dataset,music_subset,session_song,test_delay,test_mode,block,trial,image_filename,subset,encoding_condition,ground_truth,music_context,recognition_response,certainty,image_valence,image_arousal,rt_recognition_ms,rt_certainty_ms,rt_valence_ms,rt_arousal_ms
+amirmir,Baseline,1,Group_1,a,,24h,0,1,1,017 - 72177 - Heart of Darkness.jpg,a,music,seen,False,yes,4,4,5,4196,1104,1288,504
+amirmir,Baseline,1,Group_1,a,,24h,0,1,2,123 - 72353 - Abstract Landscape.jpg,c,new,new,False,no,3,4,5,3564,992,928,456

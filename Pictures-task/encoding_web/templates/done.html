@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>סיום – מטלת קידוד</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container setup-container" style="text-align:center">
+    <h1 class="setup-title">תודה רבה!</h1>
+    <p class="setup-subtitle">מטלת הקידוד הסתיימה בהצלחה.</p>
+    <div style="margin-top:2rem;color:var(--muted);font-size:0.95rem">
+      <p>משתתף/ת: <strong>{{ participant_id }}</strong></p>
+      <p>סשן: <strong>{{ sess }}</strong></p>
+    </div>
+    <p style="margin-top:2.5rem;color:var(--muted)">
+      ניתן לסגור חלון זה.
+    </p>
+  </div>
+</body>
+</html>

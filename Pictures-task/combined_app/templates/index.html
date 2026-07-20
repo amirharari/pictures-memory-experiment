@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ניסוי תמונות</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    .landing { display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:80vh; gap:2rem; }
+    .task-link { display:block; width:260px; padding:1.4rem 1rem; background:var(--surface); border:2px solid var(--accent); border-radius:var(--radius); font-size:1.2rem; font-weight:700; color:var(--text); text-align:center; text-decoration:none; transition:background .2s, transform .1s; }
+    .task-link:hover { background:var(--accent); transform:scale(1.03); }
+    .task-link small { display:block; font-weight:400; color:var(--muted); font-size:.85rem; margin-top:.4rem; }
+  </style>
+</head>
+<body>
+  <div class="container landing">
+    <h1 class="setup-title">ניסוי תמונות וזיכרון</h1>
+    <a href="/encoding/" class="task-link">
+      מטלת קידוד
+      <small>הצגת תמונות עם / בלי מוזיקה</small>
+    </a>
+    <a href="/memory/" class="task-link">
+      מבחן זיכרון
+      <small>זיהוי תמונות – 24h / 48h לאחר קידוד</small>
+    </a>
+  </div>
+</body>
+</html>

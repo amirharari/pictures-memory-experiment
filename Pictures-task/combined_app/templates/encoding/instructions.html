@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>הוראות – מטלת קידוד</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    .instr-box { background:var(--surface); border-radius:var(--radius); padding:1.6rem 2rem; margin:1.2rem 0; line-height:2; }
+    .instr-step { display:none; }
+    .instr-step.active { display:block; }
+
+    /* progress dots */
+    .progress-dots { display:flex; justify-content:center; gap:.55rem; margin-bottom:1.6rem; }
+    .dot { width:10px; height:10px; border-radius:50%; background:var(--surface2); border:1px solid #555; transition:background .25s; }
+    .dot.done  { background:var(--yes); border-color:var(--yes); }
+    .dot.active { background:var(--accent); border-color:var(--accent); }
+
+    /* example card */
+    .example-card { background:var(--surface2); border-radius:var(--radius); padding:1.4rem; margin:1rem 0;
+                    display:flex; flex-direction:column; align-items:center; gap:1rem; }
+    .example-q  { font-size:1rem; color:var(--text); text-align:center; }
+    .example-btns { display:flex; gap:2rem; font-size:1rem; }
+    .example-key { background:var(--surface); border:1px solid #555; border-radius:6px;
+                   padding:.35rem .9rem; font-weight:700; font-size:1rem; }
+
+    /* highlight box */
+    .highlight-box { background:rgba(233,69,96,.08); border:1px solid var(--accent);
+                     border-radius:var(--radius); padding:1.1rem 1.5rem; margin:1rem 0; line-height:1.9; }
+    .highlight-box.green { background:rgba(46,204,113,.08); border-color:var(--yes); }
+
+    /* quiz */
+    #quiz-section { display:none; }
+    .q-text { font-size:1.05rem; font-weight:600; margin-bottom:1.2rem; line-height:1.7; }
+    .q-options { display:flex; flex-direction:column; gap:.7rem; }
+    .q-option { background:var(--surface2); border:2px solid transparent; border-radius:10px;
+                padding:.8rem 1.2rem; cursor:pointer; font-size:.97rem; transition:border-color .2s; }
+    .q-option:hover { border-color:var(--accent); }
+    .feedback { margin-top:1rem; padding:.75rem 1rem; border-radius:var(--radius);
+                font-weight:600; font-size:.95rem; display:none; }
+    .feedback.wrong { background:rgba(233,69,96,.15); border:1px solid var(--accent); color:var(--accent); }
+    .feedback.right { background:rgba(46,204,113,.15); border:1px solid var(--yes); color:var(--yes); }
+    .step-counter { font-size:.82rem; color:var(--muted); margin-bottom:1rem; }
+  </style>
+</head>
+<body>
+  <div class="container setup-container">
+
+    <!-- ══ INSTRUCTION STEPS ══════════════════════════════════════════════ -->
+
+    <!-- Step 1 — Overview -->
+    <div class="instr-step active" id="step-1">
+      <h1 class="setup-title">ברוכ/ה הבא/ה למטלת הקידוד</h1>
+      <div class="progress-dots" id="dots-1"></div>
+
+      <div class="instr-box">
+        <p>בסדרה זו תראה/י ציורים שונים.</p>
+        <p>כל ציור יוצג למשך <strong>2 שניות</strong>.</p>
+        <p>לאחר כל ציור יופיע <strong>+</strong> על המסך לכמה שניות.</p>
+      </div>
+
+      <div class="highlight-box green">
+        <p>נסה/י להישאר ממוקד/ת ולהתבונן בכל ציור בתשומת לב.</p>
+      </div>
+
+      <button class="btn-start" onclick="nextStep(2)" style="margin-top:1rem;">הבא ←</button>
+    </div>
+
+    <!-- Step 2 — The question -->
+    <div class="instr-step" id="step-2">
+      <h1 class="setup-title">השאלה שתופיע</h1>
+      <div class="progress-dots" id="dots-2"></div>
+
+      <div class="instr-box">
+        <p>לפעמים, בזמן ה-<strong>+</strong>, תופיע שאלה קצרה על הציור שהיה לפניך:</p>
+      </div>
+
+      <div class="example-card">
+        <svg width="180" height="140" viewBox="0 0 180 140" style="border-radius:8px;background:#1a1a2e;" xmlns="http://www.w3.org/2000/svg">
+          <rect width="180" height="140" fill="#1a1a2e"/>
+          <circle cx="145" cy="28" r="18" fill="#f9ca24" opacity=".9"/>
+          <g stroke="#f9ca24" stroke-width="2.5" opacity=".6">
+            <line x1="145" y1="4"  x2="145" y2="0"/>
+            <line x1="165" y1="10" x2="170" y2="6"/>
+            <line x1="172" y1="28" x2="178" y2="28"/>
+            <line x1="165" y1="46" x2="170" y2="51"/>
+            <line x1="125" y1="10" x2="120" y2="6"/>
+            <line x1="118" y1="28" x2="112" y2="28"/>
+          </g>
+          <rect x="0" y="100" width="180" height="40" fill="#2d5a27"/>
+          <rect x="55" y="65" width="70" height="45" fill="#c0392b"/>
+          <polygon points="45,65 90,30 135,65" fill="#7f8c8d"/>
+          <rect x="78" y="85" width="24" height="25" rx="12" fill="#6c3a1e"/>
+          <rect x="60" y="72" width="18" height="16" rx="3" fill="#85c1e9"/>
+          <line x1="69" y1="72" x2="69" y2="88" stroke="#fff" stroke-width="1.5"/>
+          <line x1="60" y1="80" x2="78" y2="80" stroke="#fff" stroke-width="1.5"/>
+          <rect x="102" y="72" width="18" height="16" rx="3" fill="#85c1e9"/>
+          <line x1="111" y1="72" x2="111" y2="88" stroke="#fff" stroke-width="1.5"/>
+          <line x1="102" y1="80" x2="120" y2="80" stroke="#fff" stroke-width="1.5"/>
+          <circle cx="22" cy="75" r="9" fill="#f5cba7" stroke="#333" stroke-width="1.5"/>
+          <circle cx="19" cy="73" r="1.8" fill="#333"/>
+          <circle cx="25" cy="73" r="1.8" fill="#333"/>
+          <path d="M18,79 Q22,83 26,79" stroke="#333" stroke-width="1.5" fill="none"/>
+          <line x1="22" y1="84" x2="22" y2="108" stroke="#333" stroke-width="2"/>
+          <line x1="22" y1="90" x2="8"  y2="82" stroke="#333" stroke-width="2"/>
+          <line x1="22" y1="90" x2="36" y2="82" stroke="#333" stroke-width="2"/>
+          <line x1="22" y1="108" x2="14" y2="122" stroke="#333" stroke-width="2"/>
+          <line x1="22" y1="108" x2="30" y2="122" stroke="#333" stroke-width="2"/>
+          <ellipse cx="47" cy="60" rx="20" ry="11" fill="#fff" opacity=".92"/>
+          <polygon points="34,67 30,75 40,69" fill="#fff" opacity=".92"/>
+          <text x="47" y="64" text-anchor="middle" font-size="10" fill="#333">שלום!</text>
+        </svg>
+        <p class="example-q">האם יש בתמונה תחושה של תנועה?</p>
+        <div class="example-btns">
+          <span><span class="example-key">1</span> = כן</span>
+          <span><span class="example-key">2</span> = לא</span>
+        </div>
+      </div>
+
+      <div class="highlight-box">
+        <p><strong>אין תשובה נכונה או שגויה</strong> — המטרה היא לראות את דרך החשיבה שלך.</p>
+        <p>ענה/י באופן אינטואיטיבי לפי הרגשתך הראשונה.</p>
+      </div>
+
+      <button class="btn-start" onclick="nextStep(3)" style="margin-top:1rem;">הבא ←</button>
+    </div>
+
+    <!-- Step 3 — Memory note -->
+    <div class="instr-step" id="step-3">
+      <h1 class="setup-title">מה יקרה בהמשך?</h1>
+      <div class="progress-dots" id="dots-3"></div>
+
+      <div class="instr-box">
+        <p>בהמשך הניסוי נשאל אותך על <strong>אילו תמונות אתה/את זוכר/ת</strong> מהסדרה הזו.</p>
+      </div>
+
+      <div class="highlight-box green">
+        <p>הביצועים <strong>לא חשובים</strong> — אין ציפייה לזכור הכל.</p>
+        <p>חשוב לנו שתהנה/י, תתרכז/י ותתבונן/י בתמונות באופן חופשי.</p>
+      </div>
+
+      <button class="btn-start" onclick="nextStep(4)" style="margin-top:1rem;">הבא ←</button>
+    </div>
+
+    <!-- Step 4 — Music blocks -->
+    <div class="instr-step" id="step-4">
+      <h1 class="setup-title">מבנה המטלה</h1>
+      <div class="progress-dots" id="dots-4"></div>
+
+      <div class="instr-box">
+        <p>המטלה מחולקת לשני חלקים:</p>
+        {% if music_first %}
+        <p>🎵 &nbsp;<strong>חלק א׳</strong> — עם מוזיקה ברקע.</p>
+        <p>🔇 &nbsp;<strong>חלק ב׳</strong> — ללא מוזיקה.</p>
+        {% else %}
+        <p>🔇 &nbsp;<strong>חלק א׳</strong> — ללא מוזיקה.</p>
+        <p>🎵 &nbsp;<strong>חלק ב׳</strong> — עם מוזיקה ברקע.</p>
+        {% endif %}
+        <p style="margin-top:.5rem;">קטע המוזיקה נקבע מראש לפי הנחיות הניסוי ונבחר בתחילת המטלה.</p>
+      </div>
+
+      <button class="btn-start" onclick="startQuiz()" style="margin-top:1rem;">
+        המשך לשאלות הבנה ←
+      </button>
+    </div>
+
+    <!-- ══ COMPREHENSION QUIZ ═════════════════════════════════════════════ -->
+    <div id="quiz-section">
+      <h1 class="setup-title">שאלות הבנה</h1>
+      <p class="setup-subtitle">ענה/י על כל השאלות כדי להמשיך למטלה</p>
+
+      <div class="instr-box">
+        <p class="step-counter" id="step-counter"></p>
+        <p class="q-text" id="q-text"></p>
+        <div class="q-options" id="q-options"></div>
+        <div class="feedback" id="feedback"></div>
+      </div>
+
+      <button class="btn-start" id="next-btn" onclick="nextQuestion()"
+              style="display:none; margin-top:.5rem;">השאלה הבאה ←</button>
+      <a href="/encoding/begin_block" class="btn-start" id="start-btn"
+         style="display:none; margin-top:.5rem; text-decoration:none;">התחל/י את המטלה ←</a>
+    </div>
+
+  </div>
+
+  <script>
+    // ── Progress dots ────────────────────────────────────────────────────
+    const TOTAL_STEPS = 4;
+
+    function renderDots(activeStep) {
+      for (let s = 1; s <= TOTAL_STEPS; s++) {
+        const container = document.getElementById('dots-' + s);
+        if (!container) continue;
+        container.innerHTML = '';
+        for (let i = 1; i <= TOTAL_STEPS; i++) {
+          const d = document.createElement('div');
+          d.className = 'dot' + (i < activeStep ? ' done' : i === activeStep ? ' active' : '');
+          container.appendChild(d);
+        }
+      }
+    }
+    renderDots(1);
+
+    // ── Step navigation ──────────────────────────────────────────────────
+    function nextStep(n) {
+      document.querySelectorAll('.instr-step').forEach(el => el.classList.remove('active'));
+      document.getElementById('step-' + n).classList.add('active');
+      renderDots(n);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function startQuiz() {
+      document.querySelectorAll('.instr-step').forEach(el => el.classList.remove('active'));
+      document.getElementById('quiz-section').style.display = 'block';
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      renderQuestion();
+    }
+
+    // ── Comprehension questions ───────────────────────────────────────────
+    const questions = [
+      {
+        text: 'הביצועים שלי במטלת הזיכרון הם חשובים, ככל שאזכור יותר פריטים ככה הניסוי יצליח יותר',
+        options: ['נכון', 'לא נכון'],
+        correct: 1,
+        wrongMsg: 'לא נכון. הביצועים לא חשובים — חשוב שתהנה/י ותתבונן/י בחופשיות.',
+      },
+      {
+        text: 'המטלה מחולקת ל:',
+        options: [
+          'שני חלקים — אחד עם מוזיקה ברקע ואחד ללא',
+          'חלק אחד בלבד',
+          'שלושה חלקים עם הפסקות',
+        ],
+        correct: 0,
+        wrongMsg: 'לא נכון. המטלה מחולקת לשני חלקים — אחד עם מוזיקה ואחד ללא.',
+      },
+      {
+        text: 'האם יש תשובה נכונה לשאלה על תחושת תנועה בתמונה?',
+        options: [
+          'כן, יש תשובה אחת נכונה',
+          'לא — יש לענות אינטואיטיבית לפי הרגשה ראשונה',
+        ],
+        correct: 1,
+        wrongMsg: 'לא נכון. אין תשובה נכונה — המטרה לראות את דרך החשיבה שלך.',
+      },
+    ];
+
+    let current  = 0;
+    let answered = false;
+
+    function renderQuestion() {
+      answered = false;
+      const q = questions[current];
+      document.getElementById('step-counter').textContent =
+        'שאלה ' + (current + 1) + ' מתוך ' + questions.length;
+      document.getElementById('q-text').textContent = q.text;
+
+      const optDiv = document.getElementById('q-options');
+      optDiv.innerHTML = '';
+      q.options.forEach((opt, i) => {
+        const btn = document.createElement('div');
+        btn.className = 'q-option';
+        btn.textContent = opt;
+        btn.onclick = () => checkAnswer(i);
+        optDiv.appendChild(btn);
+      });
+
+      document.getElementById('feedback').style.display = 'none';
+      document.getElementById('next-btn').style.display = 'none';
+      document.getElementById('start-btn').style.display = 'none';
+    }
+
+    function checkAnswer(idx) {
+      if (answered) return;
+      answered = true;
+      const q    = questions[current];
+      const fb   = document.getElementById('feedback');
+      const opts = document.querySelectorAll('.q-option');
+
+      if (idx === q.correct) {
+        opts[idx].style.borderColor = 'var(--yes)';
+        fb.className     = 'feedback right';
+        fb.textContent   = '✓ נכון!';
+        fb.style.display = 'block';
+        if (current + 1 < questions.length) {
+          document.getElementById('next-btn').style.display = 'block';
+        } else {
+          document.getElementById('start-btn').style.display = 'block';
+        }
+      } else {
+        opts[idx].style.borderColor = 'var(--no)';
+        fb.className     = 'feedback wrong';
+        fb.textContent   = q.wrongMsg + ' אנא נסה/י שוב.';
+        fb.style.display = 'block';
+        setTimeout(() => { renderQuestion(); }, 2200);
+      }
+    }
+
+    function nextQuestion() {
+      current++;
+      renderQuestion();
+    }
+  </script>
+</body>
+</html>

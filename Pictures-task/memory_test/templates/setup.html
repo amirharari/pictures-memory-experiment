@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מבחן זיכרון – הגדרות</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container setup-container">
+    <h1 class="setup-title">מבחן זיכרון</h1>
+    <p class="setup-subtitle">הגדר/י את פרטי הסשן לפני התחלת המבחן</p>
+
+    <form action="/start" method="post" class="setup-form" autocomplete="off">
+
+      <div class="form-group">
+        <label for="participant_id">מזהה משתתף/ת</label>
+        <input type="text" id="participant_id" name="participant_id"
+               required placeholder="למשל: P01">
+      </div>
+
+      <div class="form-group">
+        <label for="session">סשן</label>
+        <select id="session" name="session" required>
+          <option value="">-- בחר/י --</option>
+          <option value="Baseline">Baseline</option>
+          <option value="Psilocybin">Psilocybin</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="participant_list">רשימת משתתף/ת (1–4)</label>
+        <select id="participant_list" name="participant_list" required>
+          <option value="">-- בחר/י --</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="test_delay">עיכוב מאז קידוד</label>
+        <select id="test_delay" name="test_delay" required>
+          <option value="">-- בחר/י --</option>
+          <option value="24h">24 שעות – מבחן 1 (ללא מוזיקה)</option>
+          <option value="48h">48 שעות – מבחן 2 (עם הקשר מוזיקלי)</option>
+        </select>
+      </div>
+
+      <div class="form-group form-group--checkbox">
+        <input type="checkbox" id="test_mode" name="test_mode">
+        <label for="test_mode">מצב בדיקה – תמונות מועטות בלבד</label>
+      </div>
+
+      <button type="submit" class="btn-start">התחל/י מבחן זיכרון</button>
+    </form>
+  </div>
+</body>
+</html>

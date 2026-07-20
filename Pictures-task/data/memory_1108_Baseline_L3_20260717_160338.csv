@@ -1,0 +1,2 @@
+﻿participant_id,session,participant_list,dataset,music_subset,session_song,test_mode,block,trial,image_filename,subset,encoding_condition,ground_truth,music_context,recognition_response,certainty,image_valence,image_arousal,rt_recognition_ms,rt_certainty_ms,rt_valence_ms,rt_arousal_ms
+1108,Baseline,3,Group_2,a,song_1.mp3,0,1,1,197 - 62375 - Singed Garden.jpg,d,new,new,True,yes,3,3,4,4048,1572,5812,5107

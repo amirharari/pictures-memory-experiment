@@ -1,0 +1,2 @@
+﻿participant_id,session,participant_list,dataset,music_subset,session_song,test_mode,block,trial,image_filename,subset,encoding_condition,ground_truth,music_context,recognition_response,certainty,image_valence,image_arousal,rt_recognition_ms,rt_certainty_ms,rt_valence_ms,rt_arousal_ms
+3242432,Baseline,1,Group_1,a,song_1.mp3,0,1,1,220 - 16969 - Composition.jpg,c,new,new,True,no,2,1,5,199439,1696,2624,1736

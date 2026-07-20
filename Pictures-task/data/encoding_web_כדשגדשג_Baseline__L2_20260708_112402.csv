@@ -1,0 +1,2 @@
+﻿participant_id,session,participant_list,dataset,music_subset,no_music_subset,song,test_mode,music_first,block,trial,subset,image_filename,image_onset_ms,isi_dur_ms,question_shown,response,rt_ms
+כדשגדשג,Baseline,2,Group_1,b,a,song_1.mp3,0,1,1,1,b,"062 - 63182 - Four Triangles within a Circle, #1.jpg",2495,5321,0,,

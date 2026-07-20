@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>דירוג מוזיקה</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container setup-container">
+    <h1 class="setup-title">דירוג הקטע המוזיקלי</h1>
+    <p class="setup-subtitle">ענה/י על שתי השאלות הבאות לגבי הקטע שהאזנת לו.</p>
+
+    <form action="/encoding/save_music_rating" method="post" class="setup-form" id="ratingForm">
+
+      <div class="rating-block">
+        <p class="question-label">אופי ההרגשה</p>
+        <p class="question-text-form">
+          באיזו מידה ההרגשה שהקטע עורר בך הייתה שלילית, למשל עצב או אי־נעימות,
+          או חיובית, למשל שמחה או נעימות?
+        </p>
+        <div class="certainty-scale">
+          <div class="scale-labels">
+            <span>1 = שלילית מאוד</span>
+            <span>5 = חיובית מאוד</span>
+          </div>
+          <div class="scale-buttons" id="valence-buttons">
+            {% for i in range(1, 6) %}
+            <button type="button" class="btn-scale" onclick="selectRating('valence', {{ i }}, this)">{{ i }}</button>
+            {% endfor %}
+          </div>
+        </div>
+        <input type="hidden" name="valence" id="valence-val" required>
+      </div>
+
+      <div class="rating-block">
+        <p class="question-label">רמת עוררות</p>
+        <p class="question-text-form">
+          באיזו מידה הרגשת מעורר/ת ודרוך/ה לעומת רגוע/ה ונינוח/ה?
+        </p>
+        <div class="certainty-scale">
+          <div class="scale-labels">
+            <span>1 = רגוע/ה מאוד</span>
+            <span>5 = מעורר/ת מאוד</span>
+          </div>
+          <div class="scale-buttons" id="arousal-buttons">
+            {% for i in range(1, 6) %}
+            <button type="button" class="btn-scale" onclick="selectRating('arousal', {{ i }}, this)">{{ i }}</button>
+            {% endfor %}
+          </div>
+        </div>
+        <input type="hidden" name="arousal" id="arousal-val" required>
+      </div>
+
+      <button type="submit" class="btn-start" id="submit-btn" disabled>המשך ←</button>
+    </form>
+  </div>
+
+  <script>
+    function selectRating(field, value, btn) {
+      document.getElementById(field + '-buttons')
+        .querySelectorAll('.btn-scale').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      document.getElementById(field + '-val').value = value;
+      const v = document.getElementById('valence-val').value;
+      const a = document.getElementById('arousal-val').value;
+      document.getElementById('submit-btn').disabled = !(v && a);
+    }
+  </script>
+</body>
+</html>

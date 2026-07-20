@@ -1,0 +1,4 @@
+﻿participant_id,session,participant_list,dataset,music_subset,no_music_subset,song,test_mode,music_first,block,trial,subset,image_filename,image_onset_ms,isi_dur_ms,question_shown,response,rt_ms
+5545,Baseline,4,Group_2,b,a,song_1.mp3,0,0,1,1,a,102 - 63630 - Woman and Birds in Front of the Sun.jpg,21,5318,0,,
+5545,Baseline,4,Group_2,b,a,song_1.mp3,0,0,1,2,a,181 - 62326 - Wings.jpg,7359,5263,0,,
+5545,Baseline,4,Group_2,b,a,song_1.mp3,0,0,1,3,a,069 - 93343 - Red Light.jpg,14653,4743,0,,
