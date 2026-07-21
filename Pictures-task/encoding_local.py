@@ -68,17 +68,21 @@ class AudioPlayer:
     def _loop(self, path):
         if self.backend == 'sd':
             try:
+                import time
                 data, sr = sf.read(path, dtype='float32')
                 if data.ndim == 1:                         # mono → stereo
                     data = np.column_stack([data, data])
                 data = data * (10.0 ** (5.0 / 20.0))      # +5 dB gain
+                duration = len(data) / sr
+                print('Audio loaded: {:.1f}s, sr={}'.format(duration, sr))
                 while not self._stop.is_set():
                     sd.play(data, sr)
-                    # poll so we can stop mid-play
-                    while sd.get_stream().active:
+                    t0 = time.time()
+                    while time.time() - t0 < duration:
                         if self._stop.is_set():
                             sd.stop(); return
-                        core.wait(0.05)
+                        time.sleep(0.05)
+                sd.stop()
             except Exception as e:
                 print('Audio error:', e)
 
@@ -143,7 +147,7 @@ dlg = gui.Dlg(title='Encoding Task – Setup')
 dlg.addField('Participant ID:',          '')
 dlg.addField('Session:',                 choices=['Baseline', 'Psilocybin'])
 dlg.addField('List (1–4):',              choices=['1', '2', '3', '4'])
-dlg.addField('Song:',                    choices=['song_1.mp3', 'song_2.mp3', 'song_3.mp3'])
+dlg.addField('Song:',                    choices=['song_1.wav', 'song_2.wav', 'song_3.wav'])
 dlg.addField('Test mode (5 images):',    False)
 vals = dlg.show()
 if not dlg.OK:

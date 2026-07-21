@@ -43,7 +43,7 @@ DATA_DIR    = os.path.join(BASE_DIR, 'data')
 os.makedirs(DATA_DIR, exist_ok=True)
 
 IMAGE_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.bmp', '.tif', '.tiff')
-ALL_SONGS        = ['song_1.mp3', 'song_2.mp3', 'song_3.mp3']
+ALL_SONGS        = ['song_1.wav', 'song_2.wav', 'song_3.wav']
 
 PARTICIPANT_LISTS = {
     1: {'Baseline': 'Group_1', 'Psilocybin': 'Group_2',
@@ -161,7 +161,7 @@ def serve_stimuli(filepath):
 @app.route('/audio/<filename>')
 def serve_audio(filename):
     ext  = os.path.splitext(filename)[1].lower()
-    mime = 'audio/mpeg' if ext == '.mp3' else 'audio/wav'
+    mime = {'mp3': 'audio/mpeg', 'wav': 'audio/wav', 'ogg': 'audio/ogg'}.get(ext.lstrip('.'), 'audio/wav')
     return send_from_directory(AUDIO_DIR, filename, mimetype=mime)
 
 
