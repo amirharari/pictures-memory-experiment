@@ -20,12 +20,88 @@ import os
 import csv
 import json
 import random
+import threading
+import sys
 from datetime import datetime
 
-from psychopy import visual, core, event, gui, sound, prefs
+import numpy as np
+from psychopy import visual, core, event, gui
 
-# prefer sounddevice; fall back to pygame if not installed
-prefs.hardware['audioLib'] = ['sounddevice', 'pygame', 'pyo']
+# ── Audio backend (sounddevice+soundfile preferred, pyo fallback) ──────────────
+_HAVE_SD = _HAVE_SF = _HAVE_PYO = False
+try:
+    import sounddevice as sd;   _HAVE_SD = True
+except Exception: pass
+try:
+    import soundfile as sf;     _HAVE_SF = True
+except Exception: pass
+try:
+    from pyo import Server, SfPlayer; _HAVE_PYO = True
+except Exception: pass
+
+
+class AudioPlayer:
+    """Background looping audio player – sounddevice+soundfile or pyo fallback."""
+
+    def __init__(self):
+        self._stop    = threading.Event()
+        self._thread  = None
+        self._pyo_srv = None
+        self._pyo_pl  = None
+        if _HAVE_SD and _HAVE_SF:
+            self.backend = 'sd'
+        elif _HAVE_PYO:
+            self.backend = 'pyo'
+        else:
+            self.backend = None
+        print('Audio backend:', self.backend)
+
+    def start(self, path):
+        """Load file and begin looping playback in a daemon thread."""
+        if self.backend is None:
+            print('WARNING: no audio backend – music will be silent')
+            return
+        self._stop.clear()
+        self._thread = threading.Thread(target=self._loop, args=(path,), daemon=True)
+        self._thread.start()
+
+    def _loop(self, path):
+        if self.backend == 'sd':
+            try:
+                data, sr = sf.read(path, dtype='float32')
+                if data.ndim == 1:                         # mono → stereo
+                    data = np.column_stack([data, data])
+                data = data * (10.0 ** (5.0 / 20.0))      # +5 dB gain
+                while not self._stop.is_set():
+                    sd.play(data, sr)
+                    # poll so we can stop mid-play
+                    while sd.get_stream().active:
+                        if self._stop.is_set():
+                            sd.stop(); return
+                        core.wait(0.05)
+            except Exception as e:
+                print('Audio error:', e)
+
+        elif self.backend == 'pyo':
+            try:
+                if self._pyo_srv is None:
+                    self._pyo_srv = Server().boot()
+                    self._pyo_srv.start()
+                gain = 10.0 ** (5.0 / 20.0)
+                self._pyo_pl = SfPlayer(path, loop=True, mul=gain).out()
+                while not self._stop.is_set():
+                    core.wait(0.1)
+                self._pyo_pl.stop()
+            except Exception as e:
+                print('Pyo error:', e)
+
+    def stop(self):
+        self._stop.set()
+        if self.backend == 'sd':
+            try: sd.stop()
+            except Exception: pass
+        if self._thread:
+            self._thread.join(timeout=2)
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
@@ -236,14 +312,7 @@ core.wait(0.5)
 
 # ── Block runner ──────────────────────────────────────────────────────────────
 def run_block(block_num, trials, subset, is_music):
-    bg_sound = None
-    if is_music:
-        try:
-            bg_sound = sound.Sound(
-                os.path.join(AUDIO_DIR, song),
-                loops=-1, stereo=True, sampleRate=44100)
-        except Exception as e:
-            print('WARNING: could not load audio —', e)
+    player = AudioPlayer() if is_music else None
 
     # No start screen in MRI version — go straight in
     fixation.draw()
@@ -251,8 +320,8 @@ def run_block(block_num, trials, subset, is_music):
     core.wait(0.5)
 
     # start music only when task begins (mirrors web: music starts on first trial)
-    if bg_sound:
-        bg_sound.play()
+    if player:
+        player.start(os.path.join(AUDIO_DIR, song))
 
     global_clock = core.Clock()
 
@@ -295,7 +364,7 @@ def run_block(block_num, trials, subset, is_music):
             if keys:
                 k, rt = keys[0]
                 if k == 'escape':
-                    if bg_sound: bg_sound.stop()
+                    if player: player.stop()
                     win.close(); core.quit()
                 response = 'yes' if k == '4' else 'no'
                 # RT is measured from image onset to match web version
@@ -317,7 +386,7 @@ def run_block(block_num, trials, subset, is_music):
 
         # escape check even without question
         if event.getKeys(['escape']):
-            if bg_sound: bg_sound.stop()
+            if player: player.stop()
             win.close(); core.quit()
 
         # ── Save trial ────────────────────────────────────────────────────────
@@ -333,8 +402,8 @@ def run_block(block_num, trials, subset, is_music):
             'rt_ms':          rt_ms,
         })
 
-    if bg_sound:
-        bg_sound.stop()
+    if player:
+        player.stop()
 
 # ── Music rating (valence + arousal 1–5) ──────────────────────────────────────
 def do_music_rating():
