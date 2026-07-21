@@ -355,7 +355,7 @@ def run_block(block_num, trials, subset, is_music):
         if show_q:
             # Show question for the full ISI (response can come any time)
             txt_stim.text = ('האם יש בתמונה תחושה של תנועה?\n\n'
-                             '   1 = לא                    4 = כן')
+                             '   4 = כן                    1 = לא')
             txt_stim.draw()
             q_clock = core.Clock()
             win.flip()
