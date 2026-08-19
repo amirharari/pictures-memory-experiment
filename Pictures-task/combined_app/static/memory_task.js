@@ -15,7 +15,7 @@ const MemoryTask = (() => {
   let valenceAt     = 0;
   let currentBlock  = null;
 
-  const IMAGE_MS = 2000;
+  const IMAGE_MS = 4000;
 
   const el    = id => document.getElementById(id);
   const audio = ()  => el('bg-music');

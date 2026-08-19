@@ -56,7 +56,7 @@ PARTICIPANT_LISTS = {
         'music_subset': 'b', 't1_distractors': 'c', 't2_distractors': 'd', 'music_first': False},
 }
 
-ENC_IMAGE_DURATION_MS = 2000
+ENC_IMAGE_DURATION_MS = 4000
 ENC_ISI_MIN_MS        = 3500
 ENC_ISI_MAX_MS        = 6500
 ENC_QUESTION_PROB     = 0.20

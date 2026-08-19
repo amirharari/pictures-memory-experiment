@@ -56,7 +56,7 @@ const MemoryTask = (() => {
   }
 
   // ── Image fade ───────────────────────────────────
-  const IMAGE_MS = 2000;
+  const IMAGE_MS = 4000;
 
   function fadeImage(src, onReady) {
     const img = el('stimulus');
