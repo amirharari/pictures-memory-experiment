@@ -43,7 +43,7 @@ AUDIO_DIR   = os.path.join(BASE_DIR, 'audio')
 DATA_DIR    = os.path.join(BASE_DIR, 'data')
 
 # ── Timing & experiment constants ──────────────────
-IMAGE_DURATION   = 2.0   # seconds each image is shown
+IMAGE_DURATION   = 4.0   # seconds each image is shown
 WASHOUT_MIN      = 3.5   # minimum ISI duration (seconds)
 WASHOUT_MAX      = 6.5   # maximum ISI duration (seconds)
 QUESTION_PROB    = 0.20  # probability of incidental judgment question per trial

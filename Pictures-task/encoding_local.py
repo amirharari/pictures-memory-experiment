@@ -5,7 +5,7 @@ Encoding Task – Local PsychoPy Version
 =======================================
 Mirrors the web-based encoding task exactly:
   - Same participant lists / group / subset logic
-  - Same timing: 2 s image, 3.5–6.5 s ISI, 20 % question probability
+  - Same timing: 4 s image, 3.5–6.5 s ISI, 20 % question probability
   - Same question: "האם יש בתמונה תחושה של תנועה?" (1=yes / 2=no)
   - Same two-block structure with background music on one block
   - Music rating (valence + arousal 1-5) after the music block
@@ -118,7 +118,7 @@ os.makedirs(DESIGN_DIR, exist_ok=True)
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 IMAGE_EXTS    = ('.jpg', '.jpeg', '.png', '.bmp', '.tif', '.tiff')
-IMG_DURATION  = 2.0    # seconds
+IMG_DURATION  = 4.0    # seconds
 ISI_MIN       = 3.5    # seconds
 ISI_MAX       = 7.0    # seconds
 QUESTION_PROB = 0.20   # probability per trial
